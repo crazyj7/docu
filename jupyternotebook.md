@@ -23,3 +23,5 @@
 | alt enter | 선택 셀 실행하고 다음에 빈셀 추가 |
 | ctrl shift - | 현재위치에서 셀을 반으로 나누기 |
 | ctrl / | 주석처리 |
+| **TAB** | 메소드 목록 보기(.을 찍고 누름) |
+| **SHIFT+TAB** | 메소드 parameter 보기 |
