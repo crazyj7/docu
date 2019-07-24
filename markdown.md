@@ -101,15 +101,13 @@ function func() {
 
 
 ## 수평선
-<hr/>  
-
 ---
 <pre>
 이렇게 --- 세개를 입력하거나 < hr / > 태그를 쓴다.
 </pre>
 
 ## 꾸미기
-> 강조를 하려면 문자열을 특수 문자로 감싼다.  
+> 강조를 하려면 별 또는 언더바로 문자열을 특수 문자로 감싼다.  
 > 먼저 \*로 감싸면 *테스트* 가 된다. <em>기울임</em> 이렇게 em태그를 써도 된다.  
 > \_로 감싸면 _테스트_ 이렇게 italic이 된다.  
 > \*\* 두 개로 감싸면 **테스트** 이렇게 bold로 된다.  
@@ -119,8 +117,10 @@ function func() {
 
 ## 이미지 / 링크
 > **참조 링크**  
-> a 태그는 대괄호, 소괄호를 차례로 사용하여 이렇게 표현한다.  [GOOGLE](google url "설명")   설명부는 생략 가능  
+> a 태그는 대괄호, 소괄호를 차례로 사용하여 이렇게 표현한다.  
+> [GOOGLE](google url "설명")   설명부는 생략 가능  
 > [GOOGLE](https://google.com)  
+> 
 > **이미지** 는 앞에 느낌표를 추가한다. \! [ text ] ( link ) 이렇게 한다.  
 > ![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)  
 > 이미지 크기 조절을 하려면 html 태그를 사용한다. < img width="100" height="100" > 이렇게 태그를 쓴다.    
@@ -283,3 +283,6 @@ $$
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
 $$
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMzg4NTcxNjhdfQ==
+-->
