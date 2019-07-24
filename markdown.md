@@ -5,9 +5,11 @@
 > \# 제목
 
 ## Editor
-온라인 에디터 추천
-stackedit.io ; 무료, 구글드라이브, github 연동됨.
-marxi.co ; 조금 쓰면 바로 유료임.
+온라인 에디터 추천  
+stackedit.io ; 무료, 구글드라이브, github 연동됨.  
+marxi.co ; 조금 쓰면 바로 유료임.  
+
+에디터/뷰어 마다 지원되는 문법과 출력 결과가 다를 수있다.  
 
 
 ## 구조적 타이틀
@@ -304,5 +306,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NDQzNTUwXX0=
+eyJoaXN0b3J5IjpbLTM5OTExNDMzXX0=
 -->
