@@ -125,6 +125,8 @@ function func() {
 > 동일 문서 내의 위치 이동은 링크 주소에  #과 이동위치제목을 붙여쓴다.   
 > ```[처음으로](#Start) ```  
 > [처음으로](#Start)   
+> ```[이미지/링크로](#이미지/링크) ```  
+> [처음으로](#Start)   
  
 > **이미지** 는 링크 방식과 동일한데 앞에 느낌표만 추가한다.  (이미지 크기 조정은 안됨)  
 > ``` ! [ text ] ( link ) ```  
@@ -293,5 +295,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNTM4NzA5XX0=
+eyJoaXN0b3J5IjpbMzI1MDIwMzQ3XX0=
 -->
