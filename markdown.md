@@ -115,7 +115,7 @@ function func() {
 > \~ 물결 한 개로 감싸면 ~테스트~ 이렇게 바닥에 붙음.  
 > \~~ 물결 두 개로 감싸면 ~~테스트~~ 이렇게 취소선이 된다.  
 
-## 이미지 / 링크
+## 이미지/링크
 > **참조 링크**  
 > a 태그는 대괄호, 소괄호를 차례로 사용하여 이렇게 표현한다.  
 
@@ -295,5 +295,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MDM0ODldfQ==
+eyJoaXN0b3J5IjpbLTIwODc2MjI1MjVdfQ==
 -->
