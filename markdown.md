@@ -165,7 +165,8 @@ function func() {
 | a | 위에 셀 추가  |
 | b | 아래에 셀 추가  |
 </pre>
-위와 같이 하면 이렇게 출력된다.
+위와 같이 하면 이렇게 출력된다.  
+
 |Key|Description|
 |---:|----|
 | Esc| 셀모드 진입 (헤드가 파란색) |
@@ -307,5 +308,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTg4MjY2MV19
+eyJoaXN0b3J5IjpbNzU1ODQzNzY3LDE1MDE4ODI2NjFdfQ==
 -->
