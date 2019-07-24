@@ -7,7 +7,7 @@
 ## Editor
 MarkDown 온라인 에디터 추천  
 [stackedit.io](http://stackedit.io) ; 무료, 구글드라이브, github 연동됨.  
-[marxi.co]( ; 조금 쓰면 바로 유료임.  
+[marxi.co](http://marxi.co) ; 조금 쓰면 바로 유료임.  
 
 에디터/뷰어 마다 지원되는 문법과 출력 결과가 다를 수있다.  
 github : 줄 바꿈시 마지막에 스페이스 두 개를 추가해줘야 한다. 수식 미지원   
@@ -308,5 +308,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDY0OTczMiwxNTAxODgyNjYxXX0=
+eyJoaXN0b3J5IjpbLTcyNzY0MTUyMCwxNTAxODgyNjYxXX0=
 -->
