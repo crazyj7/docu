@@ -118,8 +118,13 @@ function func() {
 ## 이미지 / 링크
 > **참조 링크**  
 > a 태그는 대괄호, 소괄호를 차례로 사용하여 이렇게 표현한다.  
+
 > [GOOGLE](google url "설명")   설명부는 생략 가능  
 > [GOOGLE](https://google.com)  
+
+> 동일 문서 내의 위치 이동
+> ```[처음으로](#Start) ```
+> [처음으로](#Start) 
 > 
 > **이미지** 는 앞에 느낌표를 추가한다. \! [ text ] ( link ) 이렇게 한다.  
 > ![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)  
@@ -284,5 +289,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzg4NTcxNjhdfQ==
+eyJoaXN0b3J5IjpbLTIwNjQwMDk0NzZdfQ==
 -->
