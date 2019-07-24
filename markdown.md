@@ -4,6 +4,9 @@
 > 문서 가장 첫 컬럼에서 #과 공백을 입력하고 바로 제목을 작성한다. (github에서 이렇게 해야 잘 보임.)  
 > \# 제목
 
+## Editor
+
+
 ## 구조적 타이틀
 > \# 큰 제목  
 > \## 중간 제목  
@@ -298,5 +301,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTUxNTU2NF19
+eyJoaXN0b3J5IjpbLTM4ODUyMTM1N119
 -->
