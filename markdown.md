@@ -6,8 +6,7 @@
 
 ## Editor
 온라인 에디터 추천
-stackedit.io ; 무료
-; 구글드라이브, github 연동됨.
+stackedit.io ; 무료, 구글드라이브, github 연동됨.
 marxi.co ; 조금 쓰면 바로 유료임.
 
 
@@ -305,5 +304,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY3NDk3OTddfQ==
+eyJoaXN0b3J5IjpbMzc3NDQzNTUwXX0=
 -->
