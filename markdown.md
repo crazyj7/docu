@@ -116,6 +116,7 @@ function func() {
 > \~~ 물결 두 개로 감싸면 ~~테스트~~ 이렇게 취소선이 된다.  
 
 ## 이미지/링크
+### ImageLink
 > **참조 링크**  
 > a 태그는 대괄호, 소괄호를 차례로 사용하여 이렇게 표현한다.  
 
@@ -127,6 +128,8 @@ function func() {
 > [처음으로](#Start)   
 > ```[이미지/링크로](#이미지/링크) ```  
 > [이미지/링크로](#이미지/링크)   
+> ```[ImageLink로](#ImageLink) ```  
+> [ImageLink로](#ImageLink)   
  
 > **이미지** 는 링크 방식과 동일한데 앞에 느낌표만 추가한다.  (이미지 크기 조정은 안됨)  
 > ``` ! [ text ] ( link ) ```  
@@ -295,5 +298,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc2MjI1MjVdfQ==
+eyJoaXN0b3J5IjpbMTEyMzM2NDc5OV19
 -->
