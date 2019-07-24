@@ -122,11 +122,12 @@ function func() {
 > [GOOGLE](google url "설명")   설명부는 생략 가능  
 > [GOOGLE](https://google.com)  
 
-> 동일 문서 내의 위치 이동은 링크 주소에 #뒤에 붙여서 이동위치의 제목을 쓴다.
+> 동일 문서 내의 위치 이동은 링크 주소에  #과 이동위치제목을 붙여쓴다. 
 > ```[처음으로](#Start) ```
 > [처음으로](#Start) 
-> 
-> **이미지** 는 앞에 느낌표를 추가한다. \! [ text ] ( link ) 이렇게 한다.  
+ 
+> **이미지** 는 링크 방식과 동일한데 앞에 느낌표만 추가한다. 
+> ``` ! [ text ] ( link ) ```이렇게 한다.  
 > ![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)  
 > 이미지 크기 조절을 하려면 html 태그를 사용한다. < img width="100" height="100" > 이렇게 태그를 쓴다.    
 > <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="60"/>  
@@ -289,5 +290,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDEzNDkzMV19
+eyJoaXN0b3J5IjpbMTg0ODM1NTg1XX0=
 -->
