@@ -126,12 +126,15 @@ function func() {
 > ```[처음으로](#Start) ```
 > [처음으로](#Start) 
  
-> **이미지** 는 링크 방식과 동일한데 앞에 느낌표만 추가한다. 
-> ``` ! [ text ] ( link ) ```이렇게 한다.  
+> **이미지** 는 링크 방식과 동일한데 앞에 느낌표만 추가한다.  (이미지 크기 조정은 안됨)
+> ``` ! [ text ] ( link ) ```  
 > ![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)  
-> 이미지 크기 조절을 하려면 html 태그를 사용한다. < img width="100" height="100" > 이렇게 태그를 쓴다.    
+
+> 이미지 크기 조절을 하려면 html 태그를 사용한다. < img width="100" height="100" > 이렇게 이미지 태그를 쓴다.  뷰어에 따라서 안 보일 수 도 있다.  
 > <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="60"/>  
+
 > **이미지와 링크** 를 합치려면 위 두 개를 같이 쓴다. 참조 링크 문법의 텍스트부에 이미지 문법을 넣으면 된다.    
+> ```![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) ```
 >  [![google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)](https://google.com)  
 >
 
@@ -290,5 +293,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODM1NTg1XX0=
+eyJoaXN0b3J5IjpbLTk2NzY2MjQ0N119
 -->
