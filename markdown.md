@@ -122,7 +122,7 @@ function func() {
 > [GOOGLE](google url "설명")   설명부는 생략 가능  
 > [GOOGLE](https://google.com)  
 
-> 동일 문서 내의 위치 이동은 #뒤에 붙여서 이동위치의 제목을 쓴다.
+> 동일 문서 내의 위치 이동은 링크 주소에 #뒤에 붙여서 이동위치의 제목을 쓴다.
 > ```[처음으로](#Start) ```
 > [처음으로](#Start) 
 > 
@@ -289,5 +289,5 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDMxMjg2Ml19
+eyJoaXN0b3J5IjpbMTc5MDEzNDkzMV19
 -->
