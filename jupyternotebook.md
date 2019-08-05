@@ -1,5 +1,6 @@
 # Jupyter Notebook Keyboard
 
+
 ## 셀 모드
 |Key|Description|
 |---|----|
@@ -25,3 +26,6 @@
 | ctrl / | 주석처리 |
 | **TAB** | 메소드 목록 보기(.을 찍고 누름) |
 | **SHIFT+TAB** | 메소드 parameter 보기 |
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjYyMzM0NjgyXX0=
+-->
