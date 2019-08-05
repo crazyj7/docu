@@ -3,11 +3,23 @@
 # 원격 접속
 ```
 $jupyter notebook --generate-config
-
-edit ~/.jupyter/jupyter_notebook_config.py
-
-
 ```
+vi ~/.jupyter/jupyter_notebook_config.py
+```
+c.NotebookApp.ip = '*'
+c.NotebookApp.password = u'sha1:bcd259ccf...<your hashed password here>'
+c.NotebookApp.open_browser = False
+
+# It is a good idea to set a known, fixed port for server access
+c.NotebookApp.port = 9999
+```
+패스워드 설정 방법
+```python
+from notebook.auth import passwd
+passwd('yourpassword')
+```
+출력된 결과를 위 설정 파일에 password에 설정한다.
+jupyter 
 
 
 # 단축키 
@@ -37,5 +49,5 @@ edit ~/.jupyter/jupyter_notebook_config.py
 | **TAB** | 메소드 목록 보기(.을 찍고 누름) |
 | **SHIFT+TAB** | 메소드 parameter 보기 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDE2NDJdfQ==
+eyJoaXN0b3J5IjpbODc3NzYwMzUwXX0=
 -->
