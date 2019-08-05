@@ -11,7 +11,7 @@ c.NotebookApp.password = u'sha1:bcd259ccf...<your hashed password here>'
 c.NotebookApp.open_browser = False
 
 # It is a good idea to set a known, fixed port for server access
-c.NotebookApp.port = 9999
+c.NotebookApp.port = 8888
 ```
 패스워드 설정 방법
 ```python
@@ -19,7 +19,12 @@ from notebook.auth import passwd
 passwd('yourpassword')
 ```
 출력된 결과를 위 설정 파일에 password에 설정한다.
-jupyter 
+jupyter notebook 실행하고, 원격에서 접속한다.
+우분투 방화벽에 해당 포트가 막히면 방화벽 포트를 열어줘야 한다.
+```
+$ufw allow 8888
+```
+
 
 
 # 단축키 
@@ -49,5 +54,5 @@ jupyter
 | **TAB** | 메소드 목록 보기(.을 찍고 누름) |
 | **SHIFT+TAB** | 메소드 parameter 보기 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NzYwMzUwXX0=
+eyJoaXN0b3J5IjpbLTEwODc1NzQyNzhdfQ==
 -->
