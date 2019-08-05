@@ -1,6 +1,16 @@
 # Jupyter Notebook Keyboard
 
+# 원격 접속
+```
+$jupyter notebook --generate-config
 
+edit ~/.jupyter/jupyter_notebook_config.py
+
+
+```
+
+
+# 단축키 
 ## 셀 모드
 |Key|Description|
 |---|----|
@@ -27,5 +37,5 @@
 | **TAB** | 메소드 목록 보기(.을 찍고 누름) |
 | **SHIFT+TAB** | 메소드 parameter 보기 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyMzM0NjgyXX0=
+eyJoaXN0b3J5IjpbLTI2MDE2NDJdfQ==
 -->
