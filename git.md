@@ -125,6 +125,7 @@ ex)
 > * rebase    
 > a -> b -> c -> d(master)     
 > b -> x -> y(bugfix)  
+> 위 버그 수정 브랜치를 마스터로 반영하고, 마스터만 유지하고 싶다.
 > merge: a->b->c->d->x->y(master=bugfix)  
 > git checkout alpha  
 > git rebase master  
@@ -163,5 +164,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODc0NjU1NywxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbMjEzMzUwNTIyNSwxMDE5MjY2NDU5XX0=
 -->
