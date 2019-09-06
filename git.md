@@ -83,7 +83,7 @@ or choose one side*
 > git pull  
 > conflict!!! 자동병합 충돌 발생!!! 충돌 파일 확인!!    
 > git status : 충돌파일 정보    
-> 파일이 병합처리되어 >>> <<< 등 문자 포함  
+> 파일이 병합처리되어 >>>(원격) <<<(로컬) 등 문자 포함  
 > 이 때는 파일을 수정하고 다시 커밋하고 푸시하는 방식이 있고, 어느 한 쪽을 선택할 수도 있다.  
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
@@ -175,6 +175,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOT
-I2NjQ1OV19
+eyJoaXN0b3J5IjpbMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNT
+c1MDg0LDEwMTkyNjY0NTldfQ==
 -->
