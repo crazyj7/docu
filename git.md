@@ -77,6 +77,10 @@ cancel all worked here. cancel commit.
 #### conflict?
 *edit conflicted file and git add/ git commit  
 or choose one side*  
+
+작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미   
+
+
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
 > git checkout --ours [file]  
@@ -164,5 +168,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbLTM4OTcyNzk0NywxNzYzNTc1MDg0LDEwMT
+kyNjY0NTldfQ==
 -->
