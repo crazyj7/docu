@@ -81,9 +81,10 @@ or choose one side*
 작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미 checkout받은 브랜치가 변경되었다는 것이다.  
 > git push : 리모트에서 거부 발생!!! 
 > git pull  
-> conflict!!! 자동병합 충돌 발생!!!  
->   
-
+> conflict!!! 자동병합 충돌 발생!!! 충돌 파일 확인!!    
+> git status : 충돌파일 정보    
+> 파일이 병합처리되어 >>> <<< 등 문자 포함  
+> 이 때는 파일을 수정하고 다시 커밋하고 푸시하는 방식이 있고, 어느 한 쪽을 선택할 수도 있다.  
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
@@ -172,6 +173,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDQyMzY0NCwxNzYzNTc1MDg0LDEwMT
-kyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbNjQyNDU5MDE3LDE3NjM1NzUwODQsMTAxOT
+I2NjQ1OV19
 -->
