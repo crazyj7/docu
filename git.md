@@ -7,19 +7,19 @@
 > git clone *ssh://git@192.168...:2222/home/git/repos/....git*  
 
 ## Work
-##### make new branch and work
+### make new branch and work
 최신 master 브랜치를 받아서 작업 브랜치를 만들고 작업한다.
 > git pull  
 > git branch *alpha*  
 > [work to do....]
-##### commit and push
+### commit and push
 변경된 파일들을 index표시를 하고 커밋한다. 그 후 원격 서버에 올린다.  
 > git status .  
 > git add -u    
 > git add *[files/dirs]*  
 > git commit -m *"update message"*  
 > git push  *(or git push origin master)*  
-##### merge to master  
+### merge to master  
 마스터 브랜치를 기준으로 새 작업 브랜치를 가져와 **병합** 한다.  
 병합후 변경내역을 원격 서버에 올린다.  
 
@@ -30,7 +30,7 @@
 현재 브랜치 기준으로 alpha 브랜치를 가져와 병합한다.  
 > git push  
 
-##### rollback
+### rollback
 작업한 파일을 **원래대로** 되돌리기(Warn!)  
 > git checkout *[file] or [. (current dir)]*  
 
@@ -52,6 +52,7 @@ GUI로 히스토리를 확인할 수 있다.
 한글이 깨질 경우 *hangul encoding* 변경 후, 다시 시작
 > git config --global gui.encoding utf-8  
 
+---
 
 ### Errors
 #### pull fail?
@@ -115,7 +116,8 @@ ex)
 > \*.obj
 > dataset/
 > \*.o
->
+
+---
 
 ### Branch merge
 > * fast-forward    
@@ -151,6 +153,8 @@ ex)
 ### Delete branch
 브랜치 삭제 -d 옵션으로 안되면 -D 옵션으로 한다.  
 > git branch -d *[alpha]*  
+---
+
 
 ### Delete file
 로컬 및 저장소에서 파일 삭제  
@@ -178,7 +182,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY0MjcwNjksODM3OTkzNzY5LDM3Nj
-AyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5
-XX0=
+eyJoaXN0b3J5IjpbNTM5MjgzODEwLDgzNzk5Mzc2OSwzNzYwMj
+k0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
+
 -->
