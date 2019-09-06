@@ -124,14 +124,14 @@ ex)
 
 > * rebase    
 > a -> b -**> c -> d** (master)     
-> b -> **x -> y** (bugfix)  
+> b -> **x -> y** (alpha(bugfix))  
 > 위 버그 수정 브랜치를 마스터로 반영하고, 마스터만 유지하고 싶다. 그런데 버그패치동안에 마스터가 변경된 상태다.   
 > merge: a->b->c->d **->x->y** (master=bugfix)  
 > git **checkout alpha**   : 수정 브랜치를 가져와서  
-> git **rebase master**  : 마스터에 반영   
-> *update conflict files* : 충돌발생 파일 수정       
+> git **rebase master**  : 마스터에 연결시도     
+> *update conflict files* : 충돌발생 파일 수정(c,d,x,y)       
 > git **add -u**    
-> git **rebase --continue**   
+> git **rebase --continue**  : 리베이  
 > git **checkout master**   
 > git merge alpha   
 베이스를 새로 지정한다. 위의 브랜치 트리가 한 줄로 만들어진다. 과거 히스토리 변경 주의.     
@@ -164,5 +164,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNDAzNzkxLDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbLTQ1NTQxNTM1NCwxMDE5MjY2NDU5XX0=
 -->
