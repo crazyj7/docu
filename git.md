@@ -56,7 +56,7 @@ GUI로 히스토리를 확인할 수 있다.
 ### Errors
 #### pull fail?
 cancel all worked here. cancel commit.  
-변경 내역을 되돌리고, 다시 pull로 원격에서 업데이트한다.(Warn!)  
+변경 내역을 되돌리고, 다시 pull로 원격에서 업데이트한다.(Warn! 주의!!! 작업내용삭제됨!!!! 일단 백업해 두는 것을 추천.)  
 > git reset --hard HEAD^   (HEAD~1 in Windows) or HEAD   
 > git pull  
 
@@ -163,5 +163,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTI2NjQ1OV19
+eyJoaXN0b3J5IjpbLTEzMzA1NjU1ODUsMTAxOTI2NjQ1OV19
 -->
