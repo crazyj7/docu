@@ -117,8 +117,8 @@ ex)
 
 > * merge commit    
 > Both branches are changed. Update conflict files and commit  
-> git checkout *master*    
-> git merge *alpha*    
+> git **checkout *master***    
+> git **merge *alpha*    
 충돌이 나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
 
 
@@ -130,9 +130,9 @@ ex)
 > git **checkout alpha**   : 수정 브랜치를 가져와서  
 > git **rebase master**  : 마스터에 반영   
 > *update conflict files* : 충돌발생 파일 수정       
-> git **add -u    
-> git rebase --continue  
-> git checkout master  
+> git **add -u**    
+> git **rebase --continue**   
+> git **checkout master**   
 > git merge alpha   
 베이스를 새로 지정한다. 위의 브랜치 트리가 한 줄로 만들어진다. 과거 히스토리 변경 주의.     
 
@@ -164,5 +164,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDU0NDE5MiwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbLTIwODgwNzk2MDQsMTAxOTI2NjQ1OV19
 -->
