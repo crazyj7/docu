@@ -170,9 +170,9 @@ ex)
 
 ### Delete all .git files
 리눅스에서 모든 .git 폴더 제거하기(incude subdir)  
-> check files...
-> find . -name '.git'
-> WATCHOUT!!!
+> check files...  
+> find . -name '.git'  
+> WATCHOUT!!!  
 > find . -name '.git' -prune -exec rm -rf {} +  
 
 윈도우에서 모든 .git 폴더 제거하기(incude subdir)  
@@ -184,7 +184,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3Nj
-AyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5
-XX0=
+eyJoaXN0b3J5IjpbLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mz
+c5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0
+LDEwMTkyNjY0NTldfQ==
 -->
