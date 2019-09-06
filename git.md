@@ -145,9 +145,9 @@ ex)
 > * Remove the file in both local and remote github  
 > git rm *[file]*  
 
-저장소에서만 삭제하고 로컬 파일은 보존  
+저장소에서만 삭제하고 **로컬 파일은 보존**  
 > * Remove remote file in github but remain it in local  
-> git rm --cache *[file]*  
+> git **rm --cache** *[file]*  
 
 
 ### Delete all .git files
@@ -163,5 +163,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTMwMDYwNSwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbLTU3ODc0NjU1NywxMDE5MjY2NDU5XX0=
 -->
