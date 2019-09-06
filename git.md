@@ -22,11 +22,11 @@
 ##### merge to master  
 마스터 브랜치를 기준으로 새 작업 브랜치를 가져와 **병합** 한다.  
 병합후 변경내역을 원격 서버에 올린다.  
-현재 브랜치 확인  
-> git branch  
-> git checkout *master*  
+
+> git branch  : 현재 브랜치 확인   
+> git **checkout *master***  
 현재 브랜치가 master로 변경됨  
-> git merge *alpha*    
+> git **merge *alpha***    
 현재 브랜치 기준으로 alpha 브랜치를 가져와 병합한다.  
 > git push  
 
@@ -178,7 +178,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTg5MTgzOSw4Mzc5OTM3NjksMzc2MD
-I5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NTld
-fQ==
+eyJoaXN0b3J5IjpbLTEzODY0MjcwNjksODM3OTkzNzY5LDM3Nj
+AyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5
+XX0=
 -->
