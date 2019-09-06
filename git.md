@@ -89,7 +89,7 @@ or choose one side*
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
 > git checkout --ours [file]  : 로컬파일이 진짜다. 로컬 우선!!!   
-> git **checkout --theirs [file]** : 서버에 있는 최신것을 따르겠다. (주의!!! 로컬 파일 내용은 없어짐!!!!  로컬을 무시하겠다.)   
+> git **checkout --theirs [file]** : **서버에 있는 최신것을 따르겠다. (주의!!! 로컬 파일 내용은 없어짐!!!!  로컬을 무시하겠다.)**   
 
 > *or edit file (양쪽을 모두  반영하겠다.  >>> <<< 파일 수정 )*  
 > git add -u  
@@ -175,6 +175,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg5MzI2MzksMTc2MzU3NTA4NCwxMD
-E5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOT
+I2NjQ1OV19
 -->
