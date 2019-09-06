@@ -129,7 +129,7 @@ ex)
 > * merge commit    
 > Both branches are changed. Update conflict files and commit  
 > git **checkout *master*** : 마스터를 가져와서     
-> git **merge *alpha*** : 알파를 불러와 현재(마스터)와 합친다.    
+> git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    
 충돌이 나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
 
 
@@ -175,6 +175,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3Mj
-M2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbMTUxMzI2ODY0OSw4Mzc5OTM3NjksMzc2MD
+I5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NTld
+fQ==
 -->
