@@ -131,9 +131,9 @@ ex)
 > git **rebase master**  : 마스터에 연결시도     
 > *update conflict files* : 충돌발생 파일 수정(c,d,x,y)       
 > git **add -u**    
-> git **rebase --continue**  : 리베이  
-> git **checkout master**   
-> git merge alpha   
+> git **rebase --continue**  : 리베이스 계속 진행    
+> git **checkout master** : 마스터를 가져와서    
+> git **merge alpha**   : 알파를 현재로 불러와서 병합.  
 베이스를 새로 지정한다. 위의 브랜치 트리가 한 줄로 만들어진다. 과거 히스토리 변경 주의.     
 
 
@@ -164,5 +164,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTQxNTM1NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
