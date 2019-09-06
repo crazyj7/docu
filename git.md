@@ -78,7 +78,11 @@ cancel all worked here. cancel commit.
 *edit conflicted file and git add/ git commit  
 or choose one side*  
 
-작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미   
+작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미 checkout받은 브랜치가 변경되었다는 것이다.  
+> git push : 리모트에서 거부 발생!!! 
+> git pull  
+> conflict!!! 자동병합 충돌 발생!!!  
+>   
 
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
@@ -168,6 +172,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTcyNzk0NywxNzYzNTc1MDg0LDEwMT
+eyJoaXN0b3J5IjpbLTk5MDQyMzY0NCwxNzYzNTc1MDg0LDEwMT
 kyNjY0NTldfQ==
 -->
