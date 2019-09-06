@@ -74,7 +74,7 @@ cancel all worked here. cancel commit.
 #### cancel git add?
 > git reset [file/dir]  
 
-#### conflict?
+####  <span style="color:red">conflict?</span>
 *edit conflicted file and git add/ git commit  
 or choose one side*  
 
@@ -175,6 +175,6 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNT
-c1MDg0LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3Mj
+M2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
