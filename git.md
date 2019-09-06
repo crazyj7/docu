@@ -127,10 +127,10 @@ ex)
 > b -> x -> y(bugfix)  
 > 위 버그 수정 브랜치를 마스터로 반영하고, 마스터만 유지하고 싶다.
 > merge: a->b->c->d->x->y(master=bugfix)  
-> git checkout alpha  
-> git rebase master  
-> *update conflict files*  
-> git add -u  
+> git **checkout alpha**   : 수정 브랜치를 가져와서  
+> git **rebase master**  : 마스터에 반영   
+> *update conflict files* : 충돌발생 파일 수정       
+> git **add -u    
 > git rebase --continue  
 > git checkout master  
 > git merge alpha   
@@ -164,5 +164,5 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzUwNTIyNSwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbLTY1NDU0NDE5MiwxMDE5MjY2NDU5XX0=
 -->
