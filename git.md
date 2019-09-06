@@ -36,14 +36,15 @@
 
 마지막 커밋은 취소하고 수정했던 것도 전부 취소하기(Warn!)  
 > *cancel last commit*  
-> git reset --hard HEAD^  (HEAD~1 in Windows)  
-위 옵션에서 --hard 옵션을 빼면 커밋만 취소하고 수정 파일은 그대로 유지한다.  
+> git **reset --hard HEAD^**  (HEAD~1 in Windows)  
+위 옵션에서 --hard 옵션을 빼면 커밋만 취소하고 수정 파일은 그대로 유지한다.  (**주의!!! 수정내역이 없어지므로 필요시 백업!**)
 > git reset HEAD^  
 
 Cancel Merge (병합 취소)  
 merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가기    
 > git merge --abort  
 
+---
 
 ### History
 GUI로 히스토리를 확인할 수 있다.
@@ -106,6 +107,7 @@ or choose one side*
 > git reset .  ; reset all worked  
 > git checkout .  ; go before work  
 
+---
 
 ### Ignore files
 If you dont want to upload some files or dirs,
@@ -182,7 +184,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5MjgzODEwLDgzNzk5Mzc2OSwzNzYwMj
-k0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
-
+eyJoaXN0b3J5IjpbLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3Nj
+AyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5
+XX0=
 -->
