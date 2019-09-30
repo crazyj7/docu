@@ -194,12 +194,16 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 먼저 옮길 내용을 클론으로 받는다.
 
 올릴 곳의 주소로 설정
-# git remote set-url --push origin http://local.com/
+# git remote set-url --push origin http://local.com/mobile/android.git
+# git push --mirror
+이제 로컬의 내용을 변경된 주소로 올린다.
+
 ```
+
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxNDI5ODYwLC0xNTI5NDA3MywtMTE4Mz
+eyJoaXN0b3J5IjpbNzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4Mz
 A0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIs
 OTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
 -->
