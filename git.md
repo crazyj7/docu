@@ -182,9 +182,14 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 삭제하기 전에 목록 출력만(rd /s /q 대신 echo) 해서 확인을 하는 것이 좋다.  
 
 
+### Repository mirror
+저장소 복사
+> git clone --mirror [가져올 URL] :  모든 커밋, 태그 등 복사.
+> git push --mirror [가져
+
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mz
-c5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0
-LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbOTMwNDk1MDU1LC0xMTgzMDQyNzcsLTE0Mz
+QyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2ODEs
+MTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
