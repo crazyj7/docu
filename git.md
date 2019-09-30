@@ -189,12 +189,17 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 ```
 # git remote -v 
 원격지 저장소 주소 확인
-# git clone --mirror https://aba.c.d
+
+# git clone --mirror https://user@a.c.com/maypp/test.git
+먼저 옮길 내용을 클론으로 받는다.
+
+올릴 곳의 주소로 설정
+# git remote set-url --push origin http://local.com/
 ```
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NDg2MjA4LC0xNTI5NDA3MywtMTE4Mz
+eyJoaXN0b3J5IjpbNDMxNDI5ODYwLC0xNTI5NDA3MywtMTE4Mz
 A0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIs
 OTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
 -->
