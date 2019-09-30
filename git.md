@@ -185,11 +185,11 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 ### Repository mirror
 저장소 복사
 > git clone --mirror [가져올 URL] :  모든 커밋, 태그 등 복사.
-> git push --mirror [가져
+> git push --mirror [가져욜 URL] : 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNDk1MDU1LC0xMTgzMDQyNzcsLTE0Mz
+eyJoaXN0b3J5IjpbLTE1Mjk0MDczLC0xMTgzMDQyNzcsLTE0Mz
 QyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2ODEs
 MTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
