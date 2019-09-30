@@ -184,12 +184,17 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 ### Repository mirror
 저장소 복사
-> git clone --mirror [가져올 URL] :  모든 커밋, 태그 등 복사.
-> git push --mirror [가져욜 URL] : 
+> git clone --mirror [가져올 URL] 
+> git push --mirror [가져욜 URL]  
+```
+# git remote -v 
+원격지 저장소 주소 확인
+# git clone --mirror https://aba.c.d
+```
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk0MDczLC0xMTgzMDQyNzcsLTE0Mz
-QyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2ODEs
-MTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbODY4NDg2MjA4LC0xNTI5NDA3MywtMTE4Mz
+A0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIs
+OTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
 -->
