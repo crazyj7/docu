@@ -239,7 +239,8 @@ $ \sum_{i=1}^{10}{i}  $
 $\prod_{i=1}^N x_i $
 
 > 방정식
-```\begin{matrix}
+```
+\begin{matrix}
 f(n+1) &=& (n+1)^2 \\
        &=& n^2 + 2n + 1
 \end{matrix}
@@ -308,5 +309,6 @@ $$
 \end{vmatrix}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzY0MTUyMCwxNTAxODgyNjYxXX0=
+eyJoaXN0b3J5IjpbLTMyNzU0NjI0MiwtNzI3NjQxNTIwLDE1MD
+E4ODI2NjFdfQ==
 -->
