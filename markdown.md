@@ -310,18 +310,19 @@ $$
 $$
 
 
-<style "color:red">
-style hello
+<style= "color:red">
+style tag:  hello 
 </style>
 
-<style "color:red">
-hello
-</style>
+<font color="red">
+font tag color change: hello
+</font>
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NDk4MSwtMzI3NTQ2MjQyLC03Mjc2ND
-E1MjAsMTUwMTg4MjY2MV19
+eyJoaXN0b3J5IjpbLTQ5NTgxODU3LC0zMjc1NDYyNDIsLTcyNz
+Y0MTUyMCwxNTAxODgyNjYxXX0=
 -->
