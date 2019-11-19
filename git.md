@@ -225,7 +225,7 @@ git checkout v1.0
 git tag -d v1.0
 ```
 
--태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 자
+-태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 작업
 ```
 태그로 가져와서
 git checkout v1.0
@@ -238,13 +238,22 @@ git add -u
 git commit -m "patch 1.1"
 git push
 ```
+-master로 위 브랜치 합치기
+```
+마스터로 가서
+git checkout master
+브랜치 1.1을 가져와 머지함
+git merge 1.1
+
+
+```
 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUyOTIxMjUsNzEyNjc1MTEyLC02ND
-kyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1
-LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzND
-I4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwx
-NzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbMTM1MzQxNTczNSw3MTI2NzUxMTIsLTY0OT
+I5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUs
+NzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0Mj
+gyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxLDE3
+NjM1NzUwODQsMTAxOTI2NjQ1OV19
 -->
