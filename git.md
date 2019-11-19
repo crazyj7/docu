@@ -239,7 +239,7 @@ git commit -m "patch 1.1"
 git push
 ```
 -master로 위 브랜치 합치기
-```
+ ```
 마스터로 가서
 git checkout master
 브랜치 1.1을 가져와 머지함
@@ -250,13 +250,23 @@ git add -u
 git commit -m "merge 1.1"
 git push
 ```
+ ```
+ 태그를 추가
+ git tag v4.0
+ git push origin v4.0
+```
+
+
 
 
 ---
+> Author : crazyj7@gmail.com
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NDkwNjIsNzEyNjc1MTEyLC02ND
-kyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1
-LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzND
-I4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwx
-NzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOT
+g2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1
+MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4Mj
+MyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYz
+NTc1MDg0LDEwMTkyNjY0NTldfQ==
 -->
