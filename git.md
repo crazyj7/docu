@@ -225,21 +225,26 @@ git checkout v1.0
 git tag -d v1.0
 ```
 
--v.1.0을 수정할 때는
+-태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 자
 ```
+태그로 가져와서
 git checkout v1.0
-git branch v1.0patch
-git checkout v1.0patch
+브랜치를 만들고
+git branch 1.1
+해당 브랜치로 전환(이걸 안해주면 소스 날릴 수도)
+git checkout 1.1
+수정작업
+git add -u
+git commit -m "patch 1.1"
+git push
 ```
-
-
 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5ND
-Q2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwt
-MTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OT
-M3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEw
-MTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbLTIwNzUyOTIxMjUsNzEyNjc1MTEyLC02ND
+kyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1
+LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzND
+I4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwx
+NzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
 -->
