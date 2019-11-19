@@ -211,6 +211,8 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 - 현재 받은 checkout에 tag를 만들어 걸기
  ```
 git tag v2.0
+git push origin v2.0
+-- 이렇게 해서 서버로 올린다.
 ```
  
 - 태그로 받기
@@ -229,8 +231,8 @@ git tag -d v1.0
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNj
-E0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1
-LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxLDE3NjM1Nz
-UwODQsMTAxOTI2NjQ1OV19
+eyJoaXN0b3J5IjpbLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NT
+AzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3Nywt
+MTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMz
+Y4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
 -->
