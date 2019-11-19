@@ -210,15 +210,14 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
  ```
 - 현재 받은 checkout에 tag를 만들어 걸기
  ```
-git tag v2.0
-git push origin v2.0
+git tag v1.0
+git push origin v1.0
 -- 이렇게 해서 서버로 올린다.
 ```
  
 - 태그로 받기
  ```
 git checkout v1.0
-git checkout v2.0
 ```
 
 - 태그 삭제
@@ -226,13 +225,21 @@ git checkout v2.0
 git tag -d v1.0
 ```
 
+-v.1.0을 수정할 때는
+```
+git checkout v1.0
+git branch v1.0patch
+git checkout v1.0patch
+```
+
 
 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NT
-AzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3Nywt
-MTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMz
-Y4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbLTY0OTI5ODY3NywtOTk0NDY2MTEsMzcwMT
+g0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5NDA3Mywt
+MTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMj
+k0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
+
 -->
