@@ -132,7 +132,7 @@ ex)
 
 > * merge commit    
 > Both branches are changed. Update conflict files and commit  
-> git **checkout *master*** : 마스터를 가져와서     
+> git **checkout *master*** : **마스터를 가져와서** (항상 메인을 기준으로)    
 > git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    
 충돌이 나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
 
@@ -237,9 +237,9 @@ git checkout v1.0patch
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTI5ODY3NywtOTk0NDY2MTEsMzcwMT
-g0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5NDA3Mywt
-MTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMj
-k0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV19
-
+eyJoaXN0b3J5IjpbNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5ND
+Q2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwt
+MTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OT
+M3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEw
+MTkyNjY0NTldfQ==
 -->
