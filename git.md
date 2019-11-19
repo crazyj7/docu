@@ -244,16 +244,19 @@ git push
 git checkout master
 브랜치 1.1을 가져와 머지함
 git merge 1.1
-
-
+git status
+충돌파일 편집 수정
+git add -u
+git commit -m "merge 1.1"
+git push
 ```
 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzQxNTczNSw3MTI2NzUxMTIsLTY0OT
-I5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUs
-NzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0Mj
-gyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxLDE3
-NjM1NzUwODQsMTAxOTI2NjQ1OV19
+eyJoaXN0b3J5IjpbLTE4MTg0NDkwNjIsNzEyNjc1MTEyLC02ND
+kyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1
+LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzND
+I4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwx
+NzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
 -->
