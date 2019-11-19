@@ -203,6 +203,12 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 ## Tag
 태그는 버전명을 주거나 할 때 지정해 준다.
 
+- 먼저 checkout으로 받고, 그 안
+- 현재 갖고 있는 태그 목록
+ ```
+ git tag
+ ```
+ 
 - 태그로 받기
  ```
 git checkout v0.1
@@ -213,8 +219,8 @@ git checkout v0.2
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mj
-k0MDczLC0xMTgzMDQyNzcsLTE0MzQyODIzMjUsODM3OTkzNzY5
-LDM3NjAyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5Mj
-Y2NDU5XX0=
+eyJoaXN0b3J5IjpbMTc2MjQyODcwNiwxOTA2NTAzNTU1LDc1Mz
+YxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4MjMy
+NSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNT
+c1MDg0LDEwMTkyNjY0NTldfQ==
 -->
