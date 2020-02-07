@@ -1,7 +1,10 @@
 # MarkDown
 ---
 
-test :tes
+test :test: aaa
+test :test:test:test:
+a:b:c:d:
+
 
 
 ---
@@ -328,6 +331,6 @@ font tag color change: hello
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDI2MzM4OCwtMzI3NTQ2MjQyLC03Mj
-c2NDE1MjAsMTUwMTg4MjY2MV19
+eyJoaXN0b3J5IjpbMzUxMzIxNDczLC0zMjc1NDYyNDIsLTcyNz
+Y0MTUyMCwxNTAxODgyNjYxXX0=
 -->
