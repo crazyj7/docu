@@ -241,9 +241,10 @@ git tag -d v1.0
 **Warn!: 해당 브랜치로 전환** (이걸 안해주면 소스 날릴 수도)
 ```git checkout 1.1```
 수정작업
-git add -u
+```git add -u
 git commit -m "patch 1.1"
 git push
+```
 
 -master로 위 브랜치 합치기
  ```
@@ -271,10 +272,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjYwMzU1NSwyMTA0MjY0NDA4LDE3Mz
-g2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwt
-NjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNjUwMz
-U1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNzcsLTE0
-MzQyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2OD
-EsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbMTE4NzMxNDY1LDIxMDQyNjQ0MDgsMTczOD
+Y0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC02
+NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNT
+U1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQz
+NDI4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MS
+wxNzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
 -->
