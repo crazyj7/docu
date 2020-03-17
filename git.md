@@ -130,7 +130,7 @@ ex)    cat > .gitignore
 ---
 
 ### Branch merge
-> * fast-forward    
+> * fast-forward    :  가장 편한 경우. 럭키. 할 게 없음.
 > only one branch is changed or it doesn't exist same file changed.)     
 > a -> b(master) : no change    
 >      b(newbranch) -> x ->y(bugfix)  
@@ -271,7 +271,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDcwMDUyNSwxNzM4NjQ1NTEwLDE2MT
+eyJoaXN0b3J5IjpbMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MT
 U2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3Nywt
 OTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0Nj
 EyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgz
