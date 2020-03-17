@@ -77,11 +77,8 @@ cancel all worked here. cancel commit.
 > git reset [file/dir]  
 
 
-<span style="color:red">
-abc</span>
-
-####  conflict?
-</span>
+# <font color="red"> conflict?
+</font>
 
 *edit conflicted file and git add/ git commit  
 or choose one side*  
@@ -272,7 +269,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjEyNzU5MCwxNjE1NjMzMTQsLTU4Nj
+eyJoaXN0b3J5IjpbLTE2MjE2NDgyOSwxNjE1NjMzMTQsLTU4Nj
 E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
 MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
 MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
