@@ -11,7 +11,7 @@
 최신 master 브랜치를 받아서 작업 브랜치를 만들고 작업한다.
 > git pull  
 > git branch *alpha*  
-> git commit 
+> git commit *alpha*
 > [work to do....]
 > 
 ### commit and push
@@ -274,7 +274,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzUwNjMxOSwyMDE2NTk4MjA4LDIxMD
+eyJoaXN0b3J5IjpbMTkxNjkzMTA5NSwyMDE2NTk4MjA4LDIxMD
 QyNjQ0MDgsMTczODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1Mzgs
 NzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4ND
 c5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTEx
