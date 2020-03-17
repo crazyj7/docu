@@ -100,7 +100,7 @@ or choose one side*
 > git **checkout --theirs [file]** : **서버에 있는 최신것을 따르겠다. (주의!!! 로컬 파일 내용은 없어짐!!!!  로컬을 무시하겠다.)**
 > 위와 같이 하고 git pull을 한다.   
 
-> *or edit file (양쪽을 모두  반영하겠다.  >>> <<< 파일 수정 )*  
+> *or edit file (양쪽을 모두  반영하겠다.  >>> <<< 부분을 찾아 파일 수정 )*  
 > git add -u  
 > git commit -m *"update"*  
 > git push  
@@ -271,10 +271,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODY0NTUxMCwxNjE1NjMzMTQsLTU4Nj
-E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
-MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
-MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
-MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NT
-ldfQ==
+eyJoaXN0b3J5IjpbLTUzMTQ1MDA5MCwxNzM4NjQ1NTEwLDE2MT
+U2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3Nywt
+OTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0Nj
+EyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgz
+Nzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxLDE3NjM1NzUwOD
+QsMTAxOTI2NjQ1OV19
 -->
