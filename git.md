@@ -119,9 +119,9 @@ or choose one side*
 
 ### Ignore files
 If you dont want to upload some files or dirs,
-create .gitignore file in the current directory.  
+create **.gitignore** file in the current directory.  
 add files or dirs  
-ex)     
+ex)    cat > .gitignore
 > build/  
 > \*.obj
 > dataset/
@@ -140,9 +140,8 @@ ex)
 
 > * merge commit    
 > Both branches are changed. Update conflict files and commit  
-> git **checkout *master*** : **마스터를 가져와서** (항상 메인을 기준으로)    
-> git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    
-충돌이 나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
+>  <font color="red">git **checkout *master*** : **마스터를 가져와서** (항상 메인을 기준으로)    
+> git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    </font>  conflict나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
 
 
 > * rebase    
@@ -272,7 +271,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTk2MDUzOCwxNzM4NjQ1NTEwLDE2MT
+eyJoaXN0b3J5IjpbMTEzMDcwMDUyNSwxNzM4NjQ1NTEwLDE2MT
 U2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3Nywt
 OTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0Nj
 EyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgz
