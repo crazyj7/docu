@@ -81,12 +81,13 @@ cancel all worked here. cancel commit.
 or choose one side*  
 
 작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미 checkout받은 브랜치가 변경되었다는 것이다.  
-> git push : 리모트에서 거부 발생!!! 
-> git pull  : 최신 정보를 받아와 반영한다. 
+> git add -u ; git commit -m "update" : 커밋하여 푸시 준비.
+> git push : 푸시하는데 리모트에서 거부 발생!!! 
+> git pull  : 최신 정보를 받아와 반영해야 한다. 
 > conflict!!! 자동병합 충돌 발생!!! 충돌 파일 확인!!    
 > git status : 충돌파일 정보    
 > 파일이 병합처리되어 >>>(원격) <<<(로컬) 등 문자 포함  
-> 이 때는 파일을 수정하고 다시 커밋하고 푸시하는 방식이 있고, 어느 한 쪽을 선택할 수도 있다.  
+> 이 때는 파일을 **수정/병합 하고 다시 커밋**하고 푸시하는 방식이 있고, 어느 한 쪽을 선택할 수도 있다.  
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
@@ -265,7 +266,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDc4NTM1MSwxNjE1NjMzMTQsLTU4Nj
+eyJoaXN0b3J5IjpbMTY4MzM1ODA4MSwxNjE1NjMzMTQsLTU4Nj
 E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
 MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
 MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
