@@ -31,8 +31,9 @@
 > git push  
 
 ### rollback
-작업한 파일을 **원래대로** 되돌리기(Warn!)  
-> git checkout *[file] or [. (current dir)]*  
+작업한 파일을 **원래대로** 되돌리기(**Warn!**)  
+
+>  <font color="red"> git checkout *[file] or [. (current dir)]*  </font>
 
 마지막 커밋은 취소하고 수정했던 것도 전부 취소하기(Warn!)  
 > *cancel last commit*  
@@ -58,7 +59,8 @@ GUI로 히스토리를 확인할 수 있다.
 ### Errors
 ##  <font color="red"> pull fail? </font>
 cancel all worked here. cancel commit.  
-변경 내역을 되돌리고, 다시 pull로 원격에서 업데이트한다.**(Warn! 주의!!! 작업내용삭제됨!!!! 일단 백업해 두는 것을 추천.)** 
+변경 내역을 되돌리고, 다시 pull로 원격에서 업데이트한다.
+**(Warn! 주의!!! 작업내용삭제됨!!!! 일단 백업해 두는 것을 추천.)** 
 > git **reset --hard HEAD^**   (HEAD~1 in Windows) or HEAD   
 > git pull  
 
@@ -77,7 +79,7 @@ cancel all worked here. cancel commit.
 > git reset [file/dir]  
 
 
-# <font color="red"> conflict?
+## <font color="red"> conflict?
 </font>
 
 *edit conflicted file and git add/ git commit  
@@ -269,10 +271,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzOTEyNTQ3LDE2MTU2MzMxNCwtNTg2MT
-UzOCw3MTI2NzUxMTIsLTY0OTI5ODY3NywtOTk0NDY2MTEsMzcw
-MTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5NDA3My
-wtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYw
-Mjk0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV
-19
+eyJoaXN0b3J5IjpbLTE5MzQ4OTc5NjYsMTYxNTYzMzE0LC01OD
+YxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwz
+NzAxODQ3OTgsMTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MD
+czLC0xMTgzMDQyNzcsLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3
+NjAyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2ND
+U5XX0=
 -->
