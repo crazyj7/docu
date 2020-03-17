@@ -37,13 +37,13 @@
 
 마지막 커밋은 취소하고 수정했던 것도 전부 취소하기(Warn!)  
 > *cancel last commit*  
-> git **reset --hard HEAD^**  (HEAD~1 in Windows)  
+>  <font color="red"> git **reset --hard HEAD^**  (HEAD~1 in Windows)  </font>
 위 옵션에서 --hard 옵션을 빼면 커밋만 취소하고 수정 파일은 그대로 유지한다.  (**주의!!! 수정내역이 없어지므로 필요시 백업!**)
 > git reset HEAD^  
 
-Cancel Merge (병합 취소)  
+Cancel Merge (**병합 취소**)  
 merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가기    
-> git merge --abort  
+>  <font color="red"> git merge --abort  </font>
 
 ---
 
@@ -271,10 +271,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ4OTc5NjYsMTYxNTYzMzE0LC01OD
-YxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwz
-NzAxODQ3OTgsMTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MD
-czLC0xMTgzMDQyNzcsLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3
-NjAyOTQwMiw5NzI3MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2ND
-U5XX0=
+eyJoaXN0b3J5IjpbLTkxMDA0NTg0OCwxNjE1NjMzMTQsLTU4Nj
+E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
+MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
+MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
+MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NT
+ldfQ==
 -->
