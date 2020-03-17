@@ -215,7 +215,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
  ```
  git tag
  ```
-- 현재 받은 checkout에 **tag를 만들어 걸기**
+- 현재 받은 checkout에 **tag 설정**
  ```
 git tag v1.0
 git push origin v1.0
@@ -272,10 +272,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzMxNDY1LDIxMDQyNjQ0MDgsMTczOD
-Y0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC02
-NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNT
-U1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQz
-NDI4MjMyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MS
-wxNzYzNTc1MDg0LDEwMTkyNjY0NTldfQ==
+eyJoaXN0b3J5IjpbMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3Mz
+g2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwt
+NjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNjUwMz
+U1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNzcsLTE0
+MzQyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2OD
+EsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
