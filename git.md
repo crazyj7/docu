@@ -76,7 +76,13 @@ cancel all worked here. cancel commit.
 #### cancel git add?
 > git reset [file/dir]  
 
-####  <span style="color:red">conflict?</span>
+
+<span style="color:red">
+abc</span>
+
+####  conflict?
+</span>
+
 *edit conflicted file and git add/ git commit  
 or choose one side*  
 
@@ -87,7 +93,7 @@ or choose one side*
 > conflict!!! 자동병합 충돌 발생!!! 충돌 파일 확인!!    
 > git status : 충돌파일 정보    
 > 파일이 병합처리되어 >>>(원격) <<<(로컬) 등 문자 포함  
-> 이 때는 파일을 **수정/병합 하고 다시 커밋**하고 푸시하는 방식이 있고, 어느 한 쪽을 선택할 수도 있다.  
+> 이 때는 파일을 **수정/병합 하고 다시 커밋**하고 푸시하는 방식이 있고, **어느 한 쪽을 선택**할 수도 있다.  
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
@@ -266,7 +272,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzM1ODA4MSwxNjE1NjMzMTQsLTU4Nj
+eyJoaXN0b3J5IjpbLTYzMjEyNzU5MCwxNjE1NjMzMTQsLTU4Nj
 E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
 MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
 MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
