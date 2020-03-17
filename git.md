@@ -82,7 +82,7 @@ or choose one side*
 
 작업하고 commit을 하고 원격으로 push하는데 conflict가 발생할 수 있다. 이것은 원격에 이미 checkout받은 브랜치가 변경되었다는 것이다.  
 > git push : 리모트에서 거부 발생!!! 
-> git pull  
+> git pull  : 최신 정보를 받아와 반영한다. 
 > conflict!!! 자동병합 충돌 발생!!! 충돌 파일 확인!!    
 > git status : 충돌파일 정보    
 > 파일이 병합처리되어 >>>(원격) <<<(로컬) 등 문자 포함  
@@ -265,9 +265,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NT
-ExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkw
-NjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNz
-csLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3
-MjM2ODEsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
+eyJoaXN0b3J5IjpbMTU3MDc4NTM1MSwxNjE1NjMzMTQsLTU4Nj
+E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
+MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
+MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
+MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NT
+ldfQ==
 -->
