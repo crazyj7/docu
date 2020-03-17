@@ -21,6 +21,7 @@
 > git add *[files/dirs]*  
 > git commit -m *"update message"*  
 > git push  *(or git push origin master)*  
+> 
 ### merge to master  
 마스터 브랜치를 기준으로 새 작업 브랜치를 가져와 **병합** 한다.  
 병합후 변경내역을 원격 서버에 올린다.  
@@ -274,7 +275,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjkzMTA5NSwyMDE2NTk4MjA4LDIxMD
+eyJoaXN0b3J5IjpbMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMD
 QyNjQ0MDgsMTczODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1Mzgs
 NzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4ND
 c5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTEx
