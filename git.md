@@ -215,7 +215,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
  ```
  git tag
  ```
-- 현재 받은 checkout에 tag를 만들어 걸기
+- 현재 받은 checkout에 **tag를 만들어 걸기**
  ```
 git tag v1.0
 git push origin v1.0
@@ -233,10 +233,10 @@ git tag -d v1.0
 ```
 
 -태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 작업
-```
-태그로 가져와서
-git checkout v1.0
-브랜치를 만들고
+
+태그로 **가져와서**
+```git` checkout v1.0
+**브랜치를 만들고**
 git branch 1.1
 해당 브랜치로 전환(이걸 안해주면 소스 날릴 수도)
 git checkout 1.1
@@ -244,7 +244,7 @@ git checkout 1.1
 git add -u
 git commit -m "patch 1.1"
 git push
-```
+
 -master로 위 브랜치 합치기
  ```
 마스터로 가서
@@ -271,10 +271,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MT
-U2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3Nywt
-OTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0Nj
-EyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgz
-Nzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxLDE3NjM1NzUwOD
-QsMTAxOTI2NjQ1OV19
+eyJoaXN0b3J5IjpbMTczODk5NDI2MCwyMTA0MjY0NDA4LDE3Mz
+g2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwt
+NjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNjUwMz
+U1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNzcsLTE0
+MzQyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMiw5NzI3MjM2OD
+EsMTc2MzU3NTA4NCwxMDE5MjY2NDU5XX0=
 -->
