@@ -56,7 +56,7 @@ GUI로 히스토리를 확인할 수 있다.
 ---
 
 ### Errors
-#### pull fail?
+##  <font color="red"> pull fail? </font>
 cancel all worked here. cancel commit.  
 변경 내역을 되돌리고, 다시 pull로 원격에서 업데이트한다.**(Warn! 주의!!! 작업내용삭제됨!!!! 일단 백업해 두는 것을 추천.)** 
 > git **reset --hard HEAD^**   (HEAD~1 in Windows) or HEAD   
@@ -269,10 +269,10 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE2NDgyOSwxNjE1NjMzMTQsLTU4Nj
-E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
-MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
-MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
-MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0LDEwMTkyNjY0NT
-ldfQ==
+eyJoaXN0b3J5IjpbOTEzOTEyNTQ3LDE2MTU2MzMxNCwtNTg2MT
+UzOCw3MTI2NzUxMTIsLTY0OTI5ODY3NywtOTk0NDY2MTEsMzcw
+MTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5NDA3My
+wtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYw
+Mjk0MDIsOTcyNzIzNjgxLDE3NjM1NzUwODQsMTAxOTI2NjQ1OV
+19
 -->
