@@ -72,7 +72,7 @@ cancel all worked here. cancel commit.
 > git reset --soft HEAD~ 는 HEAD를 한 커밋 이전으로 이동시킨다.  
 > git reset HEAD~ 는 HEAD 이동 및 index도 이동한다.  
 > git reset --hard HEAD~ 는 HEAD 이동, index 이동, working dir도 이전으로 돌린다.  
-> git stash 는 reset을 하지만 변경내역은 백업을 해 둔다. 파일명 지정시 git stash save *[file]* , git stash list , git stash pop/apply 로 불러오기. 다른 브랜치에 잘못 작업한 것을 원래 브랜치로 이동시킬 때 사용가능    
+> git stash 는 reset을 하지만 변경내역은 백업을 해 둔다. 파일명 지정시 git stash save *[file]* , git stash list , git stash pop/apply 로 불러오기. **엉뚱한 브랜치에서 작업을 한 경우 이것을 원래 브랜치로 이동**시킬 때 사용가능    
 
 
 #### cancel git add?
@@ -271,7 +271,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzI0NzY5NiwxNjE1NjMzMTQsLTU4Nj
+eyJoaXN0b3J5IjpbMTczODY0NTUxMCwxNjE1NjMzMTQsLTU4Nj
 E1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3
 MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNz
 MsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OTM3NjksMzc2
