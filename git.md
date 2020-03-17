@@ -96,17 +96,18 @@ or choose one side*
 
 충돌 발생시 충돌 파일을 수정하든지 어느 한 쪽을 골라야 한다.  
 현재 브랜치 기준으로 내것과 원격의 것을 잘 구분해야 한다.  
-> git checkout --ours [file]  : 로컬파일이 진짜다. 로컬 우선!!!   
-> git **checkout --theirs [file]** : **서버에 있는 최신것을 따르겠다. (주의!!! 로컬 파일 내용은 없어짐!!!!  로컬을 무시하겠다.)**
+#### 한 쪽을 선택하는 경우 conflict resolve
+> <font color="red">git checkout --ours [file] </font> : 로컬파일이 진짜다. 로컬 우선!!!   
+> <font color="red">git **checkout --theirs [file]**  </font> : **서버에 있는 최신것을 따르겠다. (주의!!! 로컬 파일 내용은 없어짐!!!!  로컬을 무시하겠다.)**
 > 위와 같이 하고 git pull을 한다.   
-
+#### 병합을 하는 경우 conflict resolve
 > *or edit file (양쪽을 모두  반영하겠다.  >>> <<< 부분을 찾아 파일 수정 )*  
 > git add -u  
 > git commit -m *"update"*  
 > git push  
 > 
 #### cancel delete local file
-파일을 잘못 삭제했을 경우 복구하는 법  
+**파일을 잘못 삭제**했을 경우 복구하는 법  
 > git status .  ; check which file is deleted.  
 > git checkout HEAD [file]  
 
@@ -271,7 +272,7 @@ git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTQ1MDA5MCwxNzM4NjQ1NTEwLDE2MT
+eyJoaXN0b3J5IjpbLTQ5OTk2MDUzOCwxNzM4NjQ1NTEwLDE2MT
 U2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3Nywt
 OTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0Nj
 EyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgz
