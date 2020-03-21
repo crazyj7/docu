@@ -297,18 +297,25 @@ $ git config --global core.autocrlf false
 git diff master..note
 ```
 
-- note 브랜치가 master와 마지막으로 같았던 버전에서 note의 최신 버전
+- note와 master가 마지막으로 같았던 old 버전에서 note의 최신 버전을 비교하기 (즉, note 브랜치만의 작업 내역)
+```
+git diff master...note
+```
+
+
+
+
 
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyODQxNTY0LC0xNTM5NjIzNTYyLDM3OD
-UwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5
-NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMT
-czODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEy
-LC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NT
-AzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3N119
-
+eyJoaXN0b3J5IjpbMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNz
+g1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2
+OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LD
+E3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTEx
+MiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNj
+UwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNzdd
+fQ==
 -->
