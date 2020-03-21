@@ -281,8 +281,11 @@ git push
 6. 위 token 스트링을 암호 대신 사용
 7. git clone, pull 등 커맨드 사용시 위 토큰으로 인증해 두면 다음부터 자동인증이 됨.
 
-- core.autocrlf 기능 꺼주기 : 
+- core.autocrlf 기능 꺼주기 : (리눅스에서 코드에 ^M이 붙는 현상 방지)
+	- 이미 ^M이 붙어 있다면, notepad++ 같은 편집기에서 UNIX ENDOL로 수정하여 다시 commit하면 해결된다. 
+```
 $ git config --global core.autocrlf false
+```
 
 
 ---
@@ -290,11 +293,11 @@ $ git config --global core.autocrlf false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MDM4OTMyLDM3ODUwMjg2NiwxNjIyMD
-I5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5
-OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNj
-E1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOTg2Nzcs
-LTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxND
-YxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4MjMyNV19
-
+eyJoaXN0b3J5IjpbLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2Mj
+IwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1
+Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLD
+E2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3
+NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNj
+E0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1
+XX0=
 -->
