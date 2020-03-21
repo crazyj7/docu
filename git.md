@@ -171,12 +171,15 @@ ex)    cat > .gitignore
 ### Delete file
 로컬 및 저장소에서 파일 삭제  
 > * Remove the file in both local and remote github  
+<font color="red">
 > git rm *[file]*  
+</font>
 
 저장소에서만 삭제하고 **로컬 파일은 보존**  
 > * Remove remote file in github but remain it in local  
+<font color="red">
 > git **rm --cache** *[file]*  
-
+</font>
 
 ### Delete all .git files
 리눅스에서 모든 .git 폴더 제거하기(incude subdir)  
@@ -287,11 +290,11 @@ $ git config --global core.autocrlf false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0xOD
-E5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0
-NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMj
-Y3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgs
-MTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMD
-QyNzcsLTE0MzQyODIzMjUsODM3OTkzNzY5LDM3NjAyOTQwMl19
+eyJoaXN0b3J5IjpbMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3MD
+M1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OTgy
+MDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwtNT
+g2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3NywtOTk0NDY2MTEs
+MzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5ND
+A3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OV19
 
 -->
