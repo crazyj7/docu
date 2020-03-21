@@ -163,7 +163,7 @@ ex)    cat > .gitignore
 
 
 ### Delete branch
-브랜치 삭제 -d 옵션으로 안되면 -D 옵션으로 한다.  
+브랜치 삭제 -d 옵션으로 안되면 -D 옵션으로 한다.   ( **tag, branch 모두 삭제는 -d 옵션**을 붙여주면 된다.)
 > git branch -d *[alpha]*  
 ---
 
@@ -311,11 +311,11 @@ git diff master...note
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNz
-g1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2
-OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LD
-E3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTEx
-MiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNj
-UwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDczLC0xMTgzMDQyNzdd
-fQ==
+eyJoaXN0b3J5IjpbLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMT
+UzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0
+NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOC
+wyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYx
+NTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNz
+AxODQ3OTgsMTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDcz
+XX0=
 -->
