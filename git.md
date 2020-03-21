@@ -287,17 +287,28 @@ git push
 $ git config --global core.autocrlf false
 ```
 
+## Compare/비교하기
+
+
+### branch 간 비교하기
+
+- master와 note 두 브랜치의 각각 최신 버전끼리 비교하기
+```
+git diff master..note
+```
+
+- note 브랜치가 master와 마지막으로 같았던 버전에서 note의 최신 버전
 
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2Mj
-IwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1
-Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLD
-E2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5ODY3
-NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUsNzUzNj
-E0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0MjgyMzI1
-XX0=
+eyJoaXN0b3J5IjpbMzYyODQxNTY0LC0xNTM5NjIzNTYyLDM3OD
+UwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5
+NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMT
+czODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEy
+LC02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NT
+AzNTU1LDc1MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3N119
+
 -->
