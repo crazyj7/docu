@@ -276,7 +276,7 @@ git push
 4. repo를 체크하고 generate token 클릭.
 5. 생성된 token 스트링 복사.
 6. 위 token 스트링을 암호 대신 사용
-7. 
+7. git clone, pull 등 커맨드 사용시 위 토큰으로 인증해 두면, 다음부터 
 
 - core.autocrlf 기능 꺼주기
 $ git config --global core.autocrlf false
@@ -287,11 +287,11 @@ $ git config --global core.autocrlf false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMT
-QyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1
-NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OT
-I5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUs
-NzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0Mj
-gyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxXX0=
+eyJoaXN0b3J5IjpbNzgyNjEyODQsMTM3MDM1NDc4MywtMTgxOT
+M2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQw
+OCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2Nz
+UxMTIsLTY0OTI5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5
+MDY1MDM1NTUsNzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mj
+c3LC0xNDM0MjgyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDJdfQ==
 
 -->
