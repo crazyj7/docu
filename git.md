@@ -269,6 +269,9 @@ git push
 
 
 ### ETC
+- github 인증 (개인 access token 방식)
+1. github 로그인 : https://github.com/login
+2. profile  - settings - developer settings 
 
 - core.autocrlf 기능 꺼주기
 $ git config --global core.autocrlf false
@@ -279,11 +282,11 @@ $ git config --global core.autocrlf false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwyMD
-E2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNjE1NjMz
-MTQsLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5ND
-Q2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1MzYxNDYxMiwt
-MTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4MjMyNSw4Mzc5OT
-M3NjksMzc2MDI5NDAyLDk3MjcyMzY4MSwxNzYzNTc1MDg0XX0=
+eyJoaXN0b3J5IjpbMTExMTU0Mjk2MSwtMTgxOTM2Njk1MiwxMT
+QyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1
+NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OT
+I5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUs
+NzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0Mj
+gyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxXX0=
 
 -->
