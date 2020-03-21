@@ -271,7 +271,10 @@ git push
 ### ETC
 - github 인증 (개인 access token 방식)
 1. github 로그인 : https://github.com/login
-2. profile  - settings - developer settings 
+2. profile  - settings - developer settings - personal access tokens 메뉴
+3. generate token 버튼 클릭
+4. repo를 체크하고 generate token 클릭.
+5. 토큰
 
 - core.autocrlf 기능 꺼주기
 $ git config --global core.autocrlf false
@@ -282,11 +285,10 @@ $ git config --global core.autocrlf false
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTU0Mjk2MSwtMTgxOTM2Njk1MiwxMT
-QyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1
-NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OT
-I5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1NTUs
-NzUzNjE0NjEyLC0xNTI5NDA3MywtMTE4MzA0Mjc3LC0xNDM0Mj
-gyMzI1LDgzNzk5Mzc2OSwzNzYwMjk0MDIsOTcyNzIzNjgxXX0=
-
+eyJoaXN0b3J5IjpbNzY1MzIwODAsLTE4MTkzNjY5NTIsMTE0Mj
+UxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUx
+MCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOT
+g2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAzNTU1LDc1
+MzYxNDYxMiwtMTUyOTQwNzMsLTExODMwNDI3NywtMTQzNDI4Mj
+MyNSw4Mzc5OTM3NjksMzc2MDI5NDAyLDk3MjcyMzY4MV19
 -->
