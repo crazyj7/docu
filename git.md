@@ -316,9 +316,25 @@ d+o ; 다른 창 채택. diff obtain. (가져오기)
 
 
 ### 더 좋은 diff 외부 툴
-P4Merge
+P4Merge 설치 방법
+[https://teddylee777.github.io/git/study-git-2](https://teddylee777.github.io/git/study-git-2)
 
+환경 변수에 C:/Program Files/Perforce 를 추가
+아래 커맨드 실행
+```
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+git config --global difftool.prompt false
+```
 
+```
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+git config --global mergetool.prompt false
+```
+
+git diff 대신 git difftool 커맨드를 사용. 
+git merge 대신 git mergetool 커맨드를 사용.
 
 
 ---
@@ -326,11 +342,11 @@ P4Merge
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTQ0Nzk0LDIwNDY0MTk2ODcsLTE1OT
-IyMTYyNjYsMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4
-NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OTUyLD
-ExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2
-NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwtNj
-Q5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNjUwMzU1
-NV19
+eyJoaXN0b3J5IjpbLTEzNjM4NDEzMzgsMjA0NjQxOTY4NywtMT
+U5MjIxNjI2NiwxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUw
+Mjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NT
+IsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTcz
+ODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC
+02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAz
+NTU1XX0=
 -->
