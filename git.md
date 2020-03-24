@@ -312,6 +312,7 @@ git merge 대신 git mergetool 커맨드를 사용.
 ] + c  ; 뒤쪽 이동, next compare  (next diff position) 
 d+p ; 현재 창 채택. diff put. (밀어넣기. 현재 기준의 블록을 반대쪽에 복사)
 d+o ; 다른 창 채택. diff obtain. (가져오기)
+:diffupdate ; diff를 업데이트하기. (화면 갱신)
 
 
 
@@ -321,7 +322,7 @@ d+o ; 다른 창 채택. diff obtain. (가져오기)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTY0MjkxMiwtMTU5MjIxNjI2NiwxND
+eyJoaXN0b3J5IjpbMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxND
 MzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5
 NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OS
 wyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNjE1
