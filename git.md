@@ -308,10 +308,10 @@ git diff 대신 git difftool 커맨드를 사용.
 git merge 대신 git mergetool 커맨드를 사용.
 
 ^+w+w ; 화면 이동 (마지막 w대신 방향키를 사용해도 가능)
-[ + c  ; 뒤쪽 이동 (next diff position)
-] + c  ; 앞쪽 이동 
-d+p ; 현재 쪽 채택. (현재 기준의 블록을 반대쪽에 복사)
-d+o ; 커서 반대쪽 채택. 
+[ + c  ; 앞쪽 이동 
+] + c  ; 뒤쪽 이동  (next diff position) 
+d+p ; 현재 창 채택. (현재 기준의 블록을 반대쪽에 복사)
+d+o ; 다른 창 채택. 
 
 
 
@@ -321,7 +321,7 @@ d+o ; 커서 반대쪽 채택.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzU0OTEwMCwtMTU5MjIxNjI2NiwxND
+eyJoaXN0b3J5IjpbMTM0NDQzMjEzMiwtMTU5MjIxNjI2NiwxND
 MzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5
 NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OS
 wyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNjE1
