@@ -315,7 +315,7 @@ d+o ; 다른 창 채택. diff obtain. (가져오기)
 :diffupdate ; diff를 업데이트하기. (화면 갱신)
 
 
-### 더 좋은 diff 외부 툴
+### 더 좋은 diff 외부 툴: p4merge
 P4Merge 설치 방법
 [https://teddylee777.github.io/git/study-git-2](https://teddylee777.github.io/git/study-git-2)
 
@@ -342,11 +342,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM4NDEzMzgsMjA0NjQxOTY4NywtMT
-U5MjIxNjI2NiwxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUw
-Mjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NT
-IsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTcz
-ODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC
-02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAz
-NTU1XX0=
+eyJoaXN0b3J5IjpbMTgyNjM1ODM3NCwyMDQ2NDE5Njg3LC0xNT
+kyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAy
+ODY2LDE2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1Mi
+wxMTQyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4
+NjQ1NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLT
+Y0OTI5ODY3NywtOTk0NDY2MTEsMzcwMTg0Nzk4LDE5MDY1MDM1
+NTVdfQ==
 -->
