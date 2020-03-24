@@ -302,6 +302,14 @@ git diff master..note
 git diff master...note
 ```
 
+### vimdiff
+기본으로 제공되는 vimdiff 사용법
+git diff 대신 git difftool 커맨드를 사용. 
+git merge 대신 git mergetool 커맨드를 사용.
+
+^+w+w ; 화면 이동 (마지막 w대신 방향키를 사용해도 가능)
+
+
 
 
 
@@ -311,11 +319,11 @@ git diff master...note
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMT
-UzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0
-NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOC
-wyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYx
-NTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNz
-AxODQ3OTgsMTkwNjUwMzU1NSw3NTM2MTQ2MTIsLTE1Mjk0MDcz
-XX0=
+eyJoaXN0b3J5IjpbLTEwMDc0MzM2NjcsLTE1OTIyMTYyNjYsMT
+QzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAy
+OTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOT
+ksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYx
+NTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC
+05OTQ0NjYxMSwzNzAxODQ3OTgsMTkwNjUwMzU1NSw3NTM2MTQ2
+MTJdfQ==
 -->
