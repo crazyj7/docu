@@ -281,7 +281,7 @@ git push
 6. 위 token 스트링을 암호 대신 사용
 7. git clone, pull 등 커맨드 사용시 위 토큰으로 인증해 두면 다음부터 자동인증이 됨.
 
-- core.autocrlf 기능 꺼주기 : (리눅스에서 코드에 ^M이 붙는 현상 방지)
+- **core.autocrlf 기능** 꺼주기 : (리눅스에서 코드에 ^M이 붙는 현상 방지)
 	- 이미 ^M이 붙어 있다면, notepad++ 같은 편집기에서 UNIX ENDOL로 수정하여 다시 commit하면 해결된다. 
 ```
 $ git config --global core.autocrlf false
@@ -343,11 +343,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMwNDc4ODYsMjA0NjQxOTY4NywtMT
-U5MjIxNjI2NiwxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUw
-Mjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NT
-IsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTcz
-ODY0NTUxMCwxNjE1NjMzMTQsLTU4NjE1MzgsNzEyNjc1MTEyLC
-02NDkyOTg2NzcsLTk5NDQ2NjExLDM3MDE4NDc5OCwxOTA2NTAz
-NTU1XX0=
+eyJoaXN0b3J5IjpbNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwND
+Y0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUzOTYy
+MzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC
+0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0
+MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LD
+cxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3
+OThdfQ==
 -->
