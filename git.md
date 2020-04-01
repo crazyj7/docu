@@ -6,6 +6,15 @@
 > git clone *http://github.com/crazyj7/...git*  
 > git clone *ssh://git@192.168...:2222/home/git/repos/....git*  
 
+## ready
+```
+git config --global user.name "YourName"
+git config --global user.email "email@test.com"
+```
+설정 내역은 ~/.gitconfi
+
+
+
 ## Work
 ### make new branch and work
 최신 master 브랜치를 받아서 작업 브랜치를 만들고 작업한다.
@@ -343,11 +352,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwND
-Y0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUzOTYy
-MzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC
-0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0
-MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01ODYxNTM4LD
-cxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0NjYxMSwzNzAxODQ3
-OThdfQ==
+eyJoaXN0b3J5IjpbLTE4ODU2OTcwMjEsNzgzMzAzNjAyLC0xMz
+gzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4
+NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMC
+wxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAx
+NjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMz
+E0LC01ODYxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0
+NjYxMV19
 -->
