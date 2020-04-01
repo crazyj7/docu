@@ -11,7 +11,12 @@
 git config --global user.name "YourName"
 git config --global user.email "email@test.com"
 ```
-설정 내역은 ~/.gitconfi
+설정 내역은 ~/.gitconfig 폴더에 저장된다.
+```
+git config --list
+설정 내역 확인
+```
+
 
 
 
@@ -352,11 +357,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU2OTcwMjEsNzgzMzAzNjAyLC0xMz
-gzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4
-NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMC
-wxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAx
-NjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMz
-E0LC01ODYxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4Njc3LC05OTQ0
-NjYxMV19
+eyJoaXN0b3J5IjpbLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzOD
+MwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0
+Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLD
+EzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwyMDE2
+NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNjE1NjMzMT
+QsLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2
+NjExXX0=
 -->
