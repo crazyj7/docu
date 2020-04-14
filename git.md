@@ -47,12 +47,12 @@ git config --list
 현재 브랜치 기준으로 alpha 브랜치를 가져와 병합한다.  
 > git push  
 
-### rollback
-commit 하기전에 이제까지 작업한 파일을 **원래대로** 되돌리기(**Warn!**)  
+## rollback
+### commit 하기전에 이제까지 작업한 파일을 **원래대로** 되돌리기(**Warn!**)  
 
 >  <font color="red"> git checkout *[file] or [. (current dir)]*  </font>
 
-마지막 커밋은 취소하고 수정했던 것도 전부 취소하기(Warn!)  
+### 마지막 커밋은 취소하고 수정했던 것도 전부 취소하기(Warn!)  
 > *cancel last commit*  
 >  <font color="red"> git **reset --hard HEAD^**  (HEAD~1 in Windows)  </font>
  <font color="red">**주의!!! 수정내역이 없어지므로 필요시 백업!**</font>
@@ -363,11 +363,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNjU4NTA2LC0zMzIzNDEyMDAsNzgzMz
-AzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYy
-NjYsMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMT
-YyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1
-MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MT
-AsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4
-Njc3XX0=
+eyJoaXN0b3J5IjpbMTYyMzUwMzMxMSwtMzMyMzQxMjAwLDc4Mz
+MwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2
+MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LD
+E2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQy
+NTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NT
+EwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5
+ODY3N119
 -->
