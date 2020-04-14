@@ -48,7 +48,7 @@ git config --list
 > git push  
 
 ### rollback
-작업한 파일을 **원래대로** 되돌리기(**Warn!**)  
+commit 하기전에 이제까지 작업한 파일을 **원래대로** 되돌리기(**Warn!**)  
 
 >  <font color="red"> git checkout *[file] or [. (current dir)]*  </font>
 
@@ -61,6 +61,11 @@ git config --list
 Cancel Merge (**병합 취소**)  
 merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가기    
 >  <font color="red"> git merge --abort  </font>
+
+### git commit 메시지 변경하기
+```
+> git commit --amend
+```
 
 ---
 
@@ -358,7 +363,7 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MDE2Mjc2LC0zMzIzNDEyMDAsNzgzMz
+eyJoaXN0b3J5IjpbNjczNjU4NTA2LC0zMzIzNDEyMDAsNzgzMz
 AzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYy
 NjYsMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMT
 YyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1
