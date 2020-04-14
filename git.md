@@ -56,7 +56,10 @@ git config --list
 > *cancel last commit*  
 >  <font color="red"> git **reset --hard HEAD^**  (HEAD~1 in Windows)  </font>
  <font color="red">**주의!!! 수정내역이 없어지므로 필요시 백업!**</font>
-위 옵션에서 **--hard 옵션을 빼면 커밋만 취소하고 수정 파일은 그대로 유지**한다.  > git reset HEAD^  
+위 옵션에서 **--hard 옵션을 빼면 커밋만 취소하고 수정 파일은 그대로 유지**한다.  
+보통은 아래와 같이 soft reset으로 로컬의 수정사항은 유지한다.
+> git reset HEAD^  
+> 작업 후, 다시 commit 
 
 Cancel Merge (**병합 취소**)  
 merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가기    
@@ -363,7 +366,7 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzUwMzMxMSwtMzMyMzQxMjAwLDc4Mz
+eyJoaXN0b3J5IjpbLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4Mz
 MwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2
 MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LD
 E2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQy
