@@ -92,8 +92,9 @@ cancel all worked here. cancel commit.
 > git stash 는 reset을 하지만 변경내역은 백업을 해 둔다. 파일명 지정시 git stash save *[file]* , git stash list , git stash pop/apply 로 불러오기. **엉뚱한 브랜치에서 작업을 한 경우 이것을 원래 브랜치로 이동**시킬 때 사용가능    
 
 
-#### cancel git add?
+#### cancel git add/  git add 취소하기
 > git reset [file/dir]  
+뒤에 대상 미지정시 전체 취소
 
 
 ## <font color="red"> conflict?
@@ -357,11 +358,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzOD
-MwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0
-Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLD
-EzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwyMDE2
-NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwxNjE1NjMzMT
-QsLTU4NjE1MzgsNzEyNjc1MTEyLC02NDkyOTg2NzcsLTk5NDQ2
-NjExXX0=
+eyJoaXN0b3J5IjpbODU0ODUxMTQ1LC0zMzIzNDEyMDAsNzgzMz
+AzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYy
+NjYsMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMT
+YyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OTUyLDExNDI1
+MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MT
+AsMTYxNTYzMzE0LC01ODYxNTM4LDcxMjY3NTExMiwtNjQ5Mjk4
+Njc3XX0=
 -->
