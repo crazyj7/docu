@@ -393,7 +393,7 @@ git log 463a -p -1
 
 ### Reset
 최근의 몇 개 커밋을 삭제하여 돌아간다. (실제 삭제하지는 않는다?)
-
+git reset --hard 버전 (이 버전으로 돌아가고, 이 버전의 다음 버전들은 모두 삭제)
 
 ### Revert
 최근 커밋들은 그대로 유지한채, 이전 버전을 가져와 최신으로 커밋한다.
@@ -404,7 +404,7 @@ git log 463a -p -1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE1OTUwMDMsLTE3MDI2MTAxNzMsLT
+eyJoaXN0b3J5IjpbLTExNDIyMTk4MzksLTE3MDI2MTAxNzMsLT
 Y1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0
 Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OT
 UsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3
