@@ -381,8 +381,10 @@ git log -p -1
 git log [커밋명] -p -1
 (커밋명은 앞에서 구분가능할 정도인 일부 몇 글자만 써도 된다.)
 
-> git log에서 본 메시지를 보고 커밋명
+> git log에서 본 메시지를 보고 커밋명을 확인한 다음 몇 글자만 추가.
 git log 463a -p -1
+위 당시 커밋버전은 그 전과 비교하여 작업한 내용이 diff로 출력된다.
+
 
 
 ---
@@ -390,7 +392,7 @@ git log 463a -p -1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTEwODY5MCwtMTcwMjYxMDE3MywtNj
+eyJoaXN0b3J5IjpbMTE2MjIxNjY5NywtMTcwMjYxMDE3MywtNj
 U3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3
 ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NS
 wtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcw
