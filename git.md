@@ -65,11 +65,14 @@ Cancel Merge (**병합 취소**)
 merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가기    
 >  <font color="red"> git merge --abort  </font>
 
-### git commit 메시지 변경하기
+### git commit 메시지 변경하기 (amend)
 ```
 > git commit --amend
-수정후
+에디러토 수정후
 > git log -1
+확인
+또는 커맨드로 바로 메시지 설정도 가능
+> git commit --amend -m "hello"
 ```
 
 ---
@@ -409,11 +412,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MzU5NTYyLDE0ODAyMjgxMywtMTkxMz
-E3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEy
-MDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLT
-E1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUzOTYyMzU2MiwzNzg1
-MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0xODE5MzY2OT
-UyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwyMTA0MjY0NDA4LDE3
-Mzg2NDU1MTBdfQ==
+eyJoaXN0b3J5IjpbLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOT
+EzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0
+MTIwMCw3ODMzMDM2MDIsLTEzODMwNDc4ODYsMjA0NjQxOTY4Ny
+wtMTU5MjIxNjI2NiwxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3
+ODUwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNj
+Y5NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgs
+MTczODY0NTUxMF19
 -->
