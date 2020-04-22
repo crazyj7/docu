@@ -249,7 +249,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
  ```
  git tag
  ```
-- 현재 받은 checkout에 **tag 설정**
+- 현재 받은 checkout에 **tag 설정**하고 push로 올림.
  ```
 git tag v1.0
 git push origin v1.0
@@ -412,7 +412,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDE3NjcyNSwtMTQ4MzAyMjYzNywxND
+eyJoaXN0b3J5IjpbMTU0OTU5NDM4NywtMTQ4MzAyMjYzNywxND
 gwMjI4MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLTY1Nzg5
 OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4Ni
 wyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1
