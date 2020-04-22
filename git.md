@@ -272,7 +272,7 @@ git tag -d v1.0
 ```git checkout v1.0```
 **브랜치를 만들고**
 ```git branch 1.1```
-**Warn!: 해당 브랜치로 전환** (이걸 안해주면 소스 날릴 수도)
+<font color="red">**Warn!: 해당 브랜치로 전환** (이걸 안해주면 소스 날릴 수도)</font>
 ```git checkout 1.1```
 수정작업
 ```git add -u
@@ -412,11 +412,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTU5NDM4NywtMTQ4MzAyMjYzNywxND
-gwMjI4MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLTY1Nzg5
-OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4Ni
-wyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1
-Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3MDM1ND
-c4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OTgyMDgs
-MjEwNDI2NDQwOF19
+eyJoaXN0b3J5IjpbMjE1OTA3ODg3LC0xNDgzMDIyNjM3LDE0OD
+AyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5
+MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LD
+IwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUz
+OTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0Nz
+gzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwy
+MTA0MjY0NDA4XX0=
 -->
