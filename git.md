@@ -178,7 +178,7 @@ ex)    cat > .gitignore
 > * **rebase**    
 > a -> b -**> c -> d** (master)     
 > b -> **x -> y** (alpha(bugfix))  
-> 위 버그 수정 브랜치를 마스터로 반영하고, 마스터만 유지하고 싶다. 그런데 버그패치동안에 마스터가 변경된 상태다.   
+> 위 버그 수정 브랜치를 마스터로 반영하고, **마스터 브랜치만 유지**하고 싶다. 그런데 버그패치동안에 마스터가 변경된 상태다.   
 > merge: a->b->c->d **->x->y** (master=bugfix)  
 > git **checkout alpha**   : 수정 브랜치를 가져와서  
 > git **rebase master**  : 마스터에 연결시도     
@@ -187,7 +187,7 @@ ex)    cat > .gitignore
 > git **rebase --continue**  : 리베이스 계속 진행    
 > git **checkout master** : 마스터를 가져와서    
 > git **merge alpha**   : 알파를 현재로 불러와서 병합.  
-베이스를 새로 지정한다. 위의 브랜치 트리가 한 줄로 만들어진다. 과거 히스토리 변경 주의.     
+베이스를 새로 지정한다. 위의 **브랜치 트리가 한 줄로** 만들어진다. 과거 히스토리 변경 주의.     
 
 
 ### Delete branch
@@ -412,11 +412,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY5MjkwNjksLTE0ODMwMjI2MzcsMT
-Q4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4
-OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMwNDc4OD
-YsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0Nzk1LC0x
-NTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNT
-Q3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4
-LDIxMDQyNjQ0MDhdfQ==
+eyJoaXN0b3J5IjpbLTk4NDE3NjcyNSwtMTQ4MzAyMjYzNywxND
+gwMjI4MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLTY1Nzg5
+OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4Ni
+wyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1
+Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3MDM1ND
+c4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OTgyMDgs
+MjEwNDI2NDQwOF19
 -->
