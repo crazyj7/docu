@@ -369,7 +369,7 @@ commit [커밋명]
 반복
 
 ### 변경된 파일명 보기
-git log --name-only -1
+**git log --name-only -1**
 (마지막 커밋에서 변경된 파일 목록 조회)
 또는
 git log --name-only
@@ -377,14 +377,14 @@ git log --name-only
 
 
 ### 커밋한 것을 그 전 버전과 변경된 부분 보기
-git log -p -1
+**git log -p -1**
 git log [커밋명] -p -1
 (커밋명은 앞에서 구분가능할 정도인 일부 몇 글자만 써도 된다.)
 
 > git log에서 본 메시지를 보고 커밋명을 확인한 다음 몇 글자만 추가.
 git log 463a -p -1
 위 당시 커밋버전은 그 전과 비교하여 작업한 내용이 diff로 출력된다.
-
+(-)는 이전 소스 내용. (+)는 해당 버전 소스 내용.
 
 
 ---
@@ -392,7 +392,7 @@ git log 463a -p -1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjIxNjY5NywtMTcwMjYxMDE3MywtNj
+eyJoaXN0b3J5IjpbMTk2ODk2NjU0NiwtMTcwMjYxMDE3MywtNj
 U3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3
 ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NS
 wtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcw
