@@ -361,16 +361,27 @@ git diff 대신 git difftool 커맨드를 사용.
 git merge 대신 git mergetool 커맨드를 사용.
 
 
+## 로그 보기
+### 변경된 파일명 보기
+git log --name-only -1
+(마지막 커밋에서 변경된 파일 목록 조회)
+또는
+git log --name-only
+(커밋별로 변경된 파일 목록 조회)
+
+
+
+
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4Mz
-MwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2
-MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LD
-E2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQy
-NTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NT
-EwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2NzUxMTIsLTY0OTI5
-ODY3N119
+eyJoaXN0b3J5IjpbLTE3MDI2MTAxNzMsLTY1Nzg5OTE2NywtMz
+MyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5
+Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1Nj
+IsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgx
+OTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OTgyMDgsMjEwNDI2ND
+QwOCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwtNTg2MTUzOCw3MTI2
+NzUxMTJdfQ==
 -->
