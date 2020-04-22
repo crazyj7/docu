@@ -266,7 +266,8 @@ git checkout v1.0
 git tag -d v1.0
 ```
 
--태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 작업
+### 태그 v.1.0을 수정할 때는 1.1 브랜치를 만들어서 작업
+### **작업 예제**
 
 태그로 **가져와서**
 ```git checkout v1.0```
@@ -293,7 +294,7 @@ git commit -m "merge 1.1"
 git push
 ```
  ```
- 태그를 추가
+ 태그를 추가하여 push로 올림
  git tag v4.0
  git push origin v4.0
 ```
@@ -412,7 +413,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1OTA3ODg3LC0xNDgzMDIyNjM3LDE0OD
+eyJoaXN0b3J5IjpbNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0OD
 AyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5
 MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LD
 IwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUz
