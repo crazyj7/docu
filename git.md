@@ -362,6 +362,11 @@ git merge 대신 git mergetool 커맨드를 사용.
 
 
 ## 로그 보기
+### 커밋 버전과 메시지 확인
+git log
+commit [커밋명]
+로그 정보
+반복
 
 ### 변경된 파일명 보기
 git log --name-only -1
@@ -373,7 +378,11 @@ git log --name-only
 
 ### 커밋한 것을 그 전 버전과 변경된 부분 보기
 git log -p -1
+git log [커밋명] -p -1
+(커밋명은 앞에서 구분가능할 정도인 일부 몇 글자만 써도 된다.)
 
+> git log에서 본 메시지를 보고 커밋명
+git log 463a -p -1
 
 
 ---
@@ -381,11 +390,11 @@ git log -p -1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI4Njc1NDIsLTE3MDI2MTAxNzMsLT
-Y1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0
-Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OT
-UsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3
-MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OT
-gyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwt
-NTg2MTUzOF19
+eyJoaXN0b3J5IjpbMTY4NTEwODY5MCwtMTcwMjYxMDE3MywtNj
+U3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3
+ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NS
+wtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcw
+MzU0NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5OD
+IwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01
+ODYxNTM4XX0=
 -->
