@@ -395,6 +395,7 @@ git log 463a -p -1
 최근의 몇 개 커밋을 삭제하여 돌아간다. (실제 삭제하지는 않는다?)
 git reset --hard 버전 (이 버전으로 돌아가고, 이 버전의 다음 버전들은 모두 삭제)
 버전은 커밋명. HEAD는 최신버전, HEAD~1은 마지막 커밋을 잘못한 경우 사용하며 최신 이전 버전으로 돌아갈 때.
+이미 push를 했다면, revert만 사용 가능.
 
 ### Revert
 최근 커밋들은 그대로 유지한채, 이전 버전을 가져와 최신으로 커밋한다.
@@ -406,11 +407,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLT
-Y1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0
-Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OT
-UsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3
-MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OT
-gyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwt
-NTg2MTUzOF19
+eyJoaXN0b3J5IjpbMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNz
+AyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2
+MDIsLTEzODMwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2Ni
+wxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIy
+MDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNT
+I5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgsMTczODY0NTUxMCwx
+NjE1NjMzMTRdfQ==
 -->
