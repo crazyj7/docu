@@ -386,17 +386,21 @@ git log 463a -p -1
 위 당시 커밋버전은 그 전과 비교하여 작업한 내용이 diff로 출력된다.
 (-)는 이전 소스 내용. (+)는 해당 버전 소스 내용.
 
+## 이전으로 돌아가기 rollback
+
+커밋을 많이 했는데, 그 전으로 돌아가기
+
 
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODk2NjU0NiwtMTcwMjYxMDE3MywtNj
-U3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3
-ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NS
-wtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcw
-MzU0NzgzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5OD
-IwOCwyMTA0MjY0NDA4LDE3Mzg2NDU1MTAsMTYxNTYzMzE0LC01
-ODYxNTM4XX0=
+eyJoaXN0b3J5IjpbLTEwMjMyNzg0MTEsLTE3MDI2MTAxNzMsLT
+Y1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0
+Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OT
+UsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2MjIwMjk0MTAsMTM3
+MDM1NDc4MywtMTgxOTM2Njk1MiwxMTQyNTE1Mjk5LDIwMTY1OT
+gyMDgsMjEwNDI2NDQwOCwxNzM4NjQ1NTEwLDE2MTU2MzMxNCwt
+NTg2MTUzOF19
 -->
