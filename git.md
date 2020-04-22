@@ -172,10 +172,10 @@ ex)    cat > .gitignore
 > * merge commit    
 > Both branches are changed. Update conflict files and commit  
 >  <font color="red">git **checkout *master*** : **마스터를 가져와서** (항상 메인을 기준으로)    
-> git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    </font>  conflict나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. 과거 히스토리 유지.    
+> git **merge *alpha*** : **알파를 불러와 현재(마스터)와 합친다.**    </font>  conflict나면 해당 파일을 수정하고 병합한다.  여러 브랜치가 하나의 브랜치(현재 브랜치)로 합쳐진다. **과거 히스토리 유지**.    
 
 
-> * rebase    
+> * **rebase**    
 > a -> b -**> c -> d** (master)     
 > b -> **x -> y** (alpha(bugfix))  
 > 위 버그 수정 브랜치를 마스터로 반영하고, 마스터만 유지하고 싶다. 그런데 버그패치동안에 마스터가 변경된 상태다.   
@@ -412,11 +412,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOT
-EzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0
-MTIwMCw3ODMzMDM2MDIsLTEzODMwNDc4ODYsMjA0NjQxOTY4Ny
-wtMTU5MjIxNjI2NiwxNDMzOTg0Nzk1LC0xNTM5NjIzNTYyLDM3
-ODUwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNTQ3ODMsLTE4MTkzNj
-Y5NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4LDIxMDQyNjQ0MDgs
-MTczODY0NTUxMF19
+eyJoaXN0b3J5IjpbLTE3NTY5MjkwNjksLTE0ODMwMjI2MzcsMT
+Q4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4
+OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMwNDc4OD
+YsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0Nzk1LC0x
+NTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLDEzNzAzNT
+Q3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwyMDE2NTk4MjA4
+LDIxMDQyNjQ0MDhdfQ==
 -->
