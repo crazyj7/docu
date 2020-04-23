@@ -311,7 +311,7 @@ git push
 7. git clone, pull 등 커맨드 사용시 위 토큰으로 인증해 두면 다음부터 자동인증이 됨.
 
 - **core.autocrlf 기능** 꺼주기 : (리눅스에서 코드에 ^M이 붙는 현상 방지)
-	- 이미 ^M이 붙어 있다면, notepad++ 같은 편집기에서 UNIX ENDOL로 수정하여 다시 commit하면 해결된다. 
+	- 이미 ^M이 붙어 있다면, notepad++ 같은 편집기에서 UNIX EOL로 수정하여 다시 commit하면 해결된다. 
 ```
 $ git config --global core.autocrlf false
 ```
@@ -413,11 +413,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0OD
-AyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5
-MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LD
-IwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUz
-OTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0Nz
-gzLC0xODE5MzY2OTUyLDExNDI1MTUyOTksMjAxNjU5ODIwOCwy
-MTA0MjY0NDA4XX0=
+eyJoaXN0b3J5IjpbLTE2MDg1OTg1OCw0NzUyNTY1MDQsLTE0OD
+MwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEw
+MTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLT
+EzODMwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMz
+OTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5ND
+EwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwy
+MDE2NTk4MjA4XX0=
 -->
