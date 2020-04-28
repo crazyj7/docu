@@ -94,9 +94,13 @@ cancel all worked here. cancel commit.
 >  <font color="red"> git **reset --hard HEAD^**   (HEAD~1 in Windows) or HEAD   
 > git pull  </font>
 
+### Stash
 그래도 pull이 실패한다면 stash로 작업내역을 백업하고 다시 받는다.  
-> git stash
-> git pull
+> git stash ; 현재 작업한 내역을 백업. 
+> git pull ; 현재 HEAD를 받아온다. 
+> 
+> git stash list ; 백업한 파일 목록 보기.
+> git stash pop ; 백업한 내역을 가져온다. 
 
 참고  
 > git reset --soft HEAD~ 는 HEAD를 한 커밋 이전으로 이동시킨다.  
@@ -413,11 +417,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg1OTg1OCw0NzUyNTY1MDQsLTE0OD
-MwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEw
-MTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLT
-EzODMwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMz
-OTg0Nzk1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5ND
-EwLDEzNzAzNTQ3ODMsLTE4MTkzNjY5NTIsMTE0MjUxNTI5OSwy
-MDE2NTk4MjA4XX0=
+eyJoaXN0b3J5IjpbMTcxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NT
+I1NjUwNCwtMTQ4MzAyMjYzNywxNDgwMjI4MTMsLTE5MTMxNzA5
+MTcsLTE3MDI2MTAxNzMsLTY1Nzg5OTE2NywtMzMyMzQxMjAwLD
+c4MzMwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Njg3LC0xNTky
+MjE2MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAyOD
+Y2LDE2MjIwMjk0MTAsMTM3MDM1NDc4MywtMTgxOTM2Njk1Miwx
+MTQyNTE1Mjk5XX0=
 -->
