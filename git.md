@@ -411,16 +411,17 @@ HEAD는 최신버전,
 HEAD~1은 마지막 커밋을 잘못한 경우 사용한다. (최신 이전 버전으로 돌아갈 때.)  이미 push를 해서 다른 사람이 pull을 했다면, 이 방식은 문제가 될 수 있음. 공지가 필요.
 
 ### Revert
-최근 커밋들은 그대로 유지한채, 이전 버전을 가져와 최신으로 커밋한다.
+최근 커밋들은 그대로 유지한채, 이전 버전을 가져와 최신으로 커밋한다. (즉, 돌아가긴 하지만 히스토리를 남겨둔다.)
 git revert 버전
 
+## 
 
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTIwMDg4NywxNzExODA2ODk2LC0xNj
+eyJoaXN0b3J5IjpbMTgwNzQ1NDgwMywxNzExODA2ODk2LC0xNj
 A4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgx
 MywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC
 0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0
