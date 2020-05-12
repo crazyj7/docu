@@ -195,7 +195,7 @@ ex)    cat > .gitignore
 
 
 ### Delete branch
-브랜치 삭제 -d 옵션으로 안되면 -D 옵션으로 한다.   ( **tag, branch 모두 삭제는 -d 옵션**을 붙여주면 된다.)
+브랜치 삭제 -d 옵션으로 안되면 -D 옵션으로 한다.   ( **tag, branch 모두 삭제는 -d 옵션**을 붙여주면 된다. 또는 --delete)
 > git branch -d *[alpha]*  
 ---
 
@@ -429,7 +429,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDk1OTAwMiwxNzExODA2ODk2LC0xNj
+eyJoaXN0b3J5IjpbLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNj
 A4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgx
 MywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC
 0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0
