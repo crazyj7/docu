@@ -279,7 +279,7 @@ git tag -d v1.0
 ```git branch 1.1```
 <font color="red">**Warn!: 해당 브랜치로 전환** (이걸 안해주면 소스 날릴 수도) 음 기억하자 branch checkout </font>
 ```git checkout 1.1```
-수정작업
+이제 소스코드 작업을 하고 다 끝나면...
 ```git add -u
 git commit -m "patch 1.1"
 git push
@@ -429,11 +429,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDQzNDE5MiwtODY2ODgyMzA1LDE3MT
-E4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLTE0ODMwMjI2
-MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC
-02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMw
-NDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0Nz
-k1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLDEz
-NzAzNTQ3ODNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDkzODQxNDgsLTg2Njg4MjMwNSwxNz
+ExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIy
+NjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3My
+wtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgz
+MDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4ND
+c5NSwtMTUzOTYyMzU2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwx
+MzcwMzU0NzgzXX0=
 -->
