@@ -414,14 +414,22 @@ HEAD~1은 마지막 커밋을 잘못한 경우 사용한다. (최신 이전 버�
 최근 커밋들은 그대로 유지한채, 이전 버전을 가져와 최신으로 커밋한다. (즉, 돌아가긴 하지만 히스토리를 남겨둔다.)
 git revert 버전
 
-## 
+## 현재 폴더에서 git 대상 파일인가?
+현재 폴더에서 관리대상 파일들
+```git ls-files```
+
+현재 폴더에서 관리대상 파일이 아닌 목록
+```git ls-files --others```
+
+
+
 
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzQ1NDgwMywxNzExODA2ODk2LC0xNj
+eyJoaXN0b3J5IjpbLTc2NDk1OTAwMiwxNzExODA2ODk2LC0xNj
 A4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgx
 MywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC
 0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0
