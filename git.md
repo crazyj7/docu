@@ -387,7 +387,7 @@ git log --name-only
 
 
 ### 커밋한 것을 그 전 버전과 변경된 부분 보기
-**git log -p -1**
+<font color="red">**git log -p -1**</font>
 git log [커밋명] -p -1
 (커밋명은 앞에서 구분가능할 정도인 일부 몇 글자만 써도 된다.)
 
@@ -417,7 +417,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUxNDcwMzUsMTcxMTgwNjg5NiwtMT
+eyJoaXN0b3J5IjpbLTE3Njg1NzgzODEsMTcxMTgwNjg5NiwtMT
 YwODU5ODU4LDQ3NTI1NjUwNCwtMTQ4MzAyMjYzNywxNDgwMjI4
 MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLTY1Nzg5OTE2Ny
 wtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2
