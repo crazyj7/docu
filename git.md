@@ -68,7 +68,7 @@ merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가
 ### git commit 메시지 변경하기 (amend)
 ```
 > git commit --amend
-에디러토 수정후
+에디터로 내용 수정후
 > git log -1
 확인
 또는 커맨드로 바로 메시지 설정도 가능
@@ -429,11 +429,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNj
-A4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgx
-MywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC
-0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0
-MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwtMTUzOTYyMz
-U2MiwzNzg1MDI4NjYsMTYyMjAyOTQxMCwxMzcwMzU0NzgzLC0x
-ODE5MzY2OTUyXX0=
+eyJoaXN0b3J5IjpbMTk4NDQzNDE5MiwtODY2ODgyMzA1LDE3MT
+E4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLTE0ODMwMjI2
+MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC
+02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMw
+NDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0Nz
+k1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLDEz
+NzAzNTQ3ODNdfQ==
 -->
