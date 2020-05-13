@@ -407,6 +407,11 @@ git log 463a -p -1
 위 당시 커밋버전은 그 전과 비교하여 작업한 내용이 diff로 출력된다.
 (-)는 이전 소스 내용. (+)는 해당 버전 소스 내용.
 
+### 변경된 코드 보기
+git diff
+git diff ^HEAD  ; git add 한 경우.
+
+
 ## 이전으로 돌아가기 rollback
 
 커밋을 많이 했는데, 그 전으로 돌아가기
@@ -438,11 +443,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTA2NDUwMiwtODY2ODgyMzA1LDE3MT
-E4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLTE0ODMwMjI2
-MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC
-02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMw
-NDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2NiwxNDMzOTg0Nz
-k1LC0xNTM5NjIzNTYyLDM3ODUwMjg2NiwxNjIyMDI5NDEwLDEz
-NzAzNTQ3ODNdfQ==
+eyJoaXN0b3J5IjpbLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC04Nj
+Y4ODIzMDUsMTcxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1NjUw
+NCwtMTQ4MzAyMjYzNywxNDgwMjI4MTMsLTE5MTMxNzA5MTcsLT
+E3MDI2MTAxNzMsLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMw
+MzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Njg3LC0xNTkyMjE2Mj
+Y2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIsMzc4NTAyODY2LDE2
+MjIwMjk0MTBdfQ==
 -->
