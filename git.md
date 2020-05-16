@@ -411,6 +411,10 @@ git log 463a -p -1
 git diff
 <font color="red"> git diff ^HEAD </font> ; git add 한 경우.
 
+### 이전 파일 보기
+git show 파일명
+git show HEAD^:./파일명
+
 
 ## 이전으로 돌아가기 rollback
 
@@ -443,11 +447,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY5MDAyMzMsLTQxMDg0MDIzMSwxMj
-E5MDY0NTAyLC04NjY4ODIzMDUsMTcxMTgwNjg5NiwtMTYwODU5
-ODU4LDQ3NTI1NjUwNCwtMTQ4MzAyMjYzNywxNDgwMjI4MTMsLT
-E5MTMxNzA5MTcsLTE3MDI2MTAxNzMsLTY1Nzg5OTE2NywtMzMy
-MzQxMjAwLDc4MzMwMzYwMiwtMTM4MzA0Nzg4NiwyMDQ2NDE5Nj
-g3LC0xNTkyMjE2MjY2LDE0MzM5ODQ3OTUsLTE1Mzk2MjM1NjIs
-Mzc4NTAyODY2XX0=
+eyJoaXN0b3J5IjpbLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
+EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
+ODk2LC0xNjA4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LD
+E0ODAyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3
+ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3OD
+g2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYsMTQzMzk4NDc5NSwt
+MTUzOTYyMzU2Ml19
 -->
