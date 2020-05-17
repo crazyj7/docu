@@ -417,6 +417,8 @@ git show  ;  현재 커밋 정보 보기. commit hash
 git show HEAD^:./파일명
 git show HEAD^^:./파일명
 git show [커밋해시]:./파일명
+git checkout [커밋해시] 파일명
+
 
 
 ## 이전으로 돌아가기 rollback
@@ -450,7 +452,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMzIwOTUxLC05ODI3ODM5ODEsLTc0OT
+eyJoaXN0b3J5IjpbNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OT
 Y0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1
 MDIsLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsND
 c1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3
