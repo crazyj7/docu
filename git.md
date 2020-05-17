@@ -412,11 +412,11 @@ git diff
 <font color="red"> git diff ^HEAD </font> ; git add 한 경우.
 
 ### 이전 파일 보기
+git log [파일명] ; 해당 파일명 변경. commit hash
 git show  ;  현재 커밋 정보 보기. commit hash
-git diff ; 현재 변경사항 보기.
-git show 파일명
 git show HEAD^:./파일명
 git show HEAD^^:./파일명
+git show [커밋해시]:./파일명
 
 
 ## 이전으로 돌아가기 rollback
@@ -450,11 +450,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1LC0yMD
-g2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtODY2ODgy
-MzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLT
-E0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAy
-NjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MD
-IsLTEzODMwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2Niwx
-NDMzOTg0Nzk1XX0=
+eyJoaXN0b3J5IjpbOTYyMzIwOTUxLC05ODI3ODM5ODEsLTc0OT
+Y0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1
+MDIsLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsND
+c1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3
+MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMD
+AsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1
+OTIyMTYyNjZdfQ==
 -->
