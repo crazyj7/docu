@@ -413,8 +413,10 @@ git diff
 
 ### 이전 파일 보기
 git show  ;  현재 커밋 정보 보기. commit hash
+git diff ; 현재 변경사항 보기.
 git show 파일명
 git show HEAD^:./파일명
+git show HEAD^^:./파일명
 
 
 ## 이전으로 돌아가기 rollback
@@ -448,11 +450,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE3MzQ4MjQsLTc0OTY0NjYwNSwtMj
-A4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4
-MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2NTA0LC
-0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNywtMTcw
-MjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgzMzAzNj
-AyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1OTIyMTYyNjYs
-MTQzMzk4NDc5NV19
+eyJoaXN0b3J5IjpbLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1LC0yMD
+g2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtODY2ODgy
+MzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLT
+E0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAy
+NjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMzMDM2MD
+IsLTEzODMwNDc4ODYsMjA0NjQxOTY4NywtMTU5MjIxNjI2Niwx
+NDMzOTg0Nzk1XX0=
 -->
