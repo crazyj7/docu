@@ -67,7 +67,8 @@ shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
 프로젝트를 생성하여 소스 파일들을 작성한다음 최초 커밋을 한다.
 ```
 git checkout ssh://id@IP:port/home/git/repos/testproject.git
-cp ~/work/myfolder/testproject/* testproject/
+cp ~/work/myfolder/testproject/*.cpp testproject/
+...
 cd testproject
 git add *.cpp *.h ...
 git commit -m "init"
@@ -507,11 +508,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nz
-k4MTU0MjYsLTQ4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4
-MSwtNzQ5NjQ2NjA1LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMT
-IxOTA2NDUwMiwtODY2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1
-OTg1OCw0NzUyNTY1MDQsLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC
-0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMz
-MjM0MTIwMF19
+eyJoaXN0b3J5IjpbOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMD
+M2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgx
+LC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
+EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
+ODk2LC0xNjA4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LD
+E0ODAyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3
+ODk5MTY3XX0=
 -->
