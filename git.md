@@ -37,7 +37,7 @@ sudo adduser git
 su - git
 mkdir repos
 ```
-### 패스워드 입력 생략
+### 패스워드 인증 생략 방법
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능.
 ```
 mkdir .ssh
@@ -49,7 +49,7 @@ chmod 600 ~/.ssh/authorized_keys
 사용자들의 공개키를 계속 등록해 주면 된다.
 cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
-
+참고로 key pair 생성은 윈도우의 경우는 putty-keygen을 사용하면 된다고 한다. 또는 윈도우 git을 설치하였으면 ssh-keygen이 포함되어 있어서 커맨드로 생성 가능하다.
 
 
 ### git 서버에서 저장소 만들기
@@ -508,11 +508,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMD
-M2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgx
-LC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
-EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
-ODk2LC0xNjA4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LD
-E0ODAyMjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3
-ODk5MTY3XX0=
+eyJoaXN0b3J5IjpbLTMxMTcyMDA5NCw5MjczMzU0NzEsLTEzMT
+ExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLTQ4Njc0MTY3
+OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1LC0yMD
+g2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtODY2ODgy
+MzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLT
+E0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAy
+NjEwMTczXX0=
 -->
