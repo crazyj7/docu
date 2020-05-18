@@ -35,6 +35,13 @@ sudo apt-get install git-core
 대표 계정 생성
 sudo adduser git
 ```
+- 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능.
+```
+mkdir .ssh
+chmod 700 .ssh
+cat id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
 
 
 
@@ -488,11 +495,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2Mjk1NzM1LDE2Nzk4MTU0MjYsLTQ4Nj
-c0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1
-LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtOD
-Y2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1
-MDQsLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC
-0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMz
-MDM2MDJdfQ==
+eyJoaXN0b3J5IjpbLTI4MTA3Mzc2MiwxNjc5ODE1NDI2LC00OD
+Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
+NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
+g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
+NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNy
+wtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgz
+MzAzNjAyXX0=
 -->
