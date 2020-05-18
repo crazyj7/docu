@@ -17,8 +17,14 @@ git config --list
 설정 내역 확인
 ```
 
-## init
-git 서버에서 저장소 만들기
+## Git Server : init
+### git server 생성
+
+ubuntu 기준.
+git-core 패키지를 설치한
+
+
+### git 서버에서 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
 ``` 
 mkdir testproject.git
@@ -468,11 +474,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNz
-E5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAy
-MzMsLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMT
-cxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1NjUwNCwtMTQ4MzAy
-MjYzNywxNDgwMjI4MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNz
-MsLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4
-MzA0Nzg4Nl19
+eyJoaXN0b3J5IjpbNjY3NDk3OTI3LDE2Nzk4MTU0MjYsLTQ4Nj
+c0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1
+LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtOD
+Y2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1
+MDQsLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC
+0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMz
+MDM2MDJdfQ==
 -->
