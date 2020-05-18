@@ -34,6 +34,8 @@ sudo apt-get install git-core
 ```
 대표 계정 생성
 sudo adduser git
+su - git
+mkdir repos
 ```
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능.
 ```
@@ -52,6 +54,8 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ### git 서버에서 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
 ``` 
+su - git
+cd ~/repos
 mkdir testproject.git
 cd testproject.git
 ```
@@ -61,6 +65,8 @@ shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
 
 프로젝트를 생성하여 소스 파일들을 작성한다음 최초 커밋을 한다.
 ```
+git checkout ssh://id@IP:port/home/git/repos/testproject.git
+cp /myfolder/testproject/* testproject/
 git add *.cpp *.h ...
 git commit -m "init"
 git push origin master
@@ -499,11 +505,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTg3NDg2NSwxNjc5ODE1NDI2LC00OD
-Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
-NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
-g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
-NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNy
-wtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgz
-MzAzNjAyXX0=
+eyJoaXN0b3J5IjpbLTExMzY0NzQ2MDcsMTY3OTgxNTQyNiwtND
+g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
+MDUsLTIwODY5MDAyMzMsLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC
+04NjY4ODIzMDUsMTcxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1
+NjUwNCwtMTQ4MzAyMjYzNywxNDgwMjI4MTMsLTE5MTMxNzA5MT
+csLTE3MDI2MTAxNzMsLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4
+MzMwMzYwMl19
 -->
