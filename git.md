@@ -39,9 +39,13 @@ sudo adduser git
 ```
 mkdir .ssh
 chmod 700 .ssh
+touch  ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+```
+```
+사용자들의 공개키를 계속 등록해 주면 된다.
 cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
-
 
 
 
@@ -495,7 +499,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTA3Mzc2MiwxNjc5ODE1NDI2LC00OD
+eyJoaXN0b3J5IjpbMTc2NTg3NDg2NSwxNjc5ODE1NDI2LC00OD
 Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
 NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
 g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
