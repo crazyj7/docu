@@ -21,7 +21,16 @@ git config --list
 ### git server 생성
 
 ubuntu 기준.
-git-core 패키지를 설치한
+git-core 패키지를 설치한다.
+ppa 사용시.
+```
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git-core
+```
+- 사용 방식
+	- ssh 계정을 사용자 별로 만들어 그루핑하
+
 
 
 ### git 서버에서 저장소 만들기
@@ -474,11 +483,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NDk3OTI3LDE2Nzk4MTU0MjYsLTQ4Nj
-c0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1
-LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtOD
-Y2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1
-MDQsLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC
-0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMz
-MDM2MDJdfQ==
+eyJoaXN0b3J5IjpbLTgxMDQxMDQyMywxNjc5ODE1NDI2LC00OD
+Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
+NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
+g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
+NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNy
+wtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgz
+MzAzNjAyXX0=
 -->
