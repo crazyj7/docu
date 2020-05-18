@@ -29,7 +29,12 @@ sudo apt-get update
 sudo apt-get install git-core
 ```
 - 사용 방식
-	- ssh 계정을 사용자 별로 만들어 그루핑하
+	- ssh 계정을 사용자 별로 만들어 그룹핑하여 접근제어를  하는 방식
+	- 대표 계정을 하나 두고 공유하는 방식. (사용자별 접근제어가 되지 않음.)
+```
+대표 계정 생성
+sudo adduser git
+```
 
 
 
@@ -483,11 +488,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDQxMDQyMywxNjc5ODE1NDI2LC00OD
-Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
-NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
-g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
-NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3MDkxNy
-wtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMDAsNzgz
-MzAzNjAyXX0=
+eyJoaXN0b3J5IjpbMzY2Mjk1NzM1LDE2Nzk4MTU0MjYsLTQ4Nj
+c0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1
+LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtOD
+Y2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1
+MDQsLTE0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC
+0xNzAyNjEwMTczLC02NTc4OTkxNjcsLTMzMjM0MTIwMCw3ODMz
+MDM2MDJdfQ==
 -->
