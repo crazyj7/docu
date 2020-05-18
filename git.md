@@ -17,6 +17,10 @@ git config --list
 설정 내역 확인
 ```
 
+## init
+저장소 만들기
+디렉터리를 프로젝 mkdir testproject.git
+### git init --bare --shared
 
 
 
@@ -452,11 +456,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OT
-Y0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1
-MDIsLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsND
-c1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3
-MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MTY3LC0zMzIzNDEyMD
-AsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIwNDY0MTk2ODcsLTE1
-OTIyMTYyNjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzI2MzA3ODQsNzI3MTk0NTgxLC05OD
+I3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQw
+MjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2ODk2LC
+0xNjA4NTk4NTgsNDc1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAy
+MjgxMywtMTkxMzE3MDkxNywtMTcwMjYxMDE3MywtNjU3ODk5MT
+Y3LC0zMzIzNDEyMDAsNzgzMzAzNjAyLC0xMzgzMDQ3ODg2LDIw
+NDY0MTk2ODddfQ==
 -->
