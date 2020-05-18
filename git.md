@@ -19,10 +19,18 @@ git config --list
 
 ## init
 저장소 만들기
-디렉터리를 저장소명.git 으로 생성한다. ( mkdir testproject.git)
+디렉터리를 저장소명.git 으로 생성한다. 
+``` mkdir testproject.git```
 해당 폴더로 이동하여 아래 커맨드를 실행
 ``` git init --bare --shared ```
 shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
+
+프로젝트를 생성하여 소스 파일들을 작성한다음 최초 커밋을 한다.
+```
+git add *.cpp *.h ...
+git commit -m "init"
+git push origin master
+```
 
 
 ## Work
@@ -457,11 +465,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mj
-c4Mzk4MSwtNzQ5NjQ2NjA1LC0yMDg2OTAwMjMzLC00MTA4NDAy
-MzEsMTIxOTA2NDUwMiwtODY2ODgyMzA1LDE3MTE4MDY4OTYsLT
-E2MDg1OTg1OCw0NzUyNTY1MDQsLTE0ODMwMjI2MzcsMTQ4MDIy
-ODEzLC0xOTEzMTcwOTE3LC0xNzAyNjEwMTczLC02NTc4OTkxNj
-csLTMzMjM0MTIwMCw3ODMzMDM2MDIsLTEzODMwNDc4ODYsMjA0
-NjQxOTY4N119
+eyJoaXN0b3J5IjpbMTgxMDU2ODg4MiwtNDg2NzQxNjc4LDcyNz
+E5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAy
+MzMsLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMT
+cxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1NjUwNCwtMTQ4MzAy
+MjYzNywxNDgwMjI4MTMsLTE5MTMxNzA5MTcsLTE3MDI2MTAxNz
+MsLTY1Nzg5OTE2NywtMzMyMzQxMjAwLDc4MzMwMzYwMiwtMTM4
+MzA0Nzg4Nl19
 -->
