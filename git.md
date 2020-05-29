@@ -78,8 +78,7 @@ git push origin master
 
 ## Work
 ### make new branch and work
-최신 master 브랜치를 받아서 작업 브랜치를 만들고 작업한다.
-> git pull  
+최신 master 브랜치를 받아서 작업 브랜치를 만들고 작업한다.  
 > git branch *alpha*  
 > git commit *alpha*
 > [work to do....]
@@ -157,6 +156,7 @@ cancel all worked here. cancel commit.
 > 
 > git stash list ; 백업한 파일 목록 보기.
 > git stash pop ; 백업한 내역을 가져온다. 
+> git pull
 
 참고  
 > git reset --soft HEAD~ 는 HEAD를 한 커밋 이전으로 이동시킨다.  
@@ -165,7 +165,7 @@ cancel all worked here. cancel commit.
 > git stash 는 reset을 하지만 변경내역은 백업을 해 둔다. 파일명 지정시 git stash save *[file]* , git stash list , git stash pop/apply 로 불러오기. **엉뚱한 브랜치에서 작업을 한 경우 이것을 원래 브랜치로 이동**시킬 때 사용가능    
 
 
-#### cancel git add/  git add 취소하기
+#### cancel git add/  git add 취소하기?
 > git reset [file/dir]  
 뒤에 대상 미지정시 전체 취소
 
@@ -508,11 +508,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTcyMDA5NCw5MjczMzU0NzEsLTEzMT
-ExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLTQ4Njc0MTY3
-OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1LC0yMD
-g2OTAwMjMzLC00MTA4NDAyMzEsMTIxOTA2NDUwMiwtODY2ODgy
-MzA1LDE3MTE4MDY4OTYsLTE2MDg1OTg1OCw0NzUyNTY1MDQsLT
-E0ODMwMjI2MzcsMTQ4MDIyODEzLC0xOTEzMTcwOTE3LC0xNzAy
-NjEwMTczXX0=
+eyJoaXN0b3J5IjpbLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3Mz
+M1NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2
+LC00ODY3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OT
+Y0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1
+MDIsLTg2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsND
+c1MjU2NTA0LC0xNDgzMDIyNjM3LDE0ODAyMjgxMywtMTkxMzE3
+MDkxN119
 -->
