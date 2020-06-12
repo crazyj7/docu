@@ -59,12 +59,14 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 참고로 key pair 생성은 윈도우의 경우는 putty-keygen을 사용하면 된다고 한다. 또는 윈도우 git을 설치하였으면 ssh-keygen이 포함되어 있어서 커맨드로 생성 가능하다.
 
-> 에러 케이스
->
+### ssh keygen 에러 케이스
+
 >* 윈도우 한글계정인 경우 인코딩문제로 깨져서 파일 생성이 안되는 경우가 있다.
 > ssh-keygen 으로 할 때 첫 번째 질문 저장위치에 한글이 깨져서 발생하는데, 그냥 id_rsa로 입력하면 현재 폴더에 생성할 수 있다. 다음 질문은 패스워드 설정이니 그냥 엔터로 입력.
 > * 생성된 파일들을 %userprofile%\.ssh 폴더에 복사한다.
-> 
+> * ssh-agent를 실행한다. 커맨드창에 ssh-agent 라고 입력. 상태확인은 뒤에 -s 옵션
+> 에러 메시지 1058이 뜬 경우. powershell을 실행하여 
+set-service 
 
 ### git 서버에서 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
@@ -523,7 +525,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzkyOTczOSwyOTU4MjA3MzYsLTExNT
+eyJoaXN0b3J5IjpbMTcxODAyODg0MywyOTU4MjA3MzYsLTExNT
 M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
 NSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0Mz
 AzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4
