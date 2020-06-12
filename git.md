@@ -37,6 +37,8 @@ sudo adduser git
 su - git
 mkdir repos
 ```
+---
+
 
 ## 패스워드 인증 생략 방법. ssh-keygen
 - pull을 할 때마다 패스워드를 입력해야 되는 것은 귀찮다.  인증생략 방법은 없을까?
@@ -87,6 +89,8 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 > ssh 계정@IP
 패스워드 없이 로그인 되면 성공
 ```
+
+---
 
 
 ### git 서버에서 저장소 만들기
@@ -546,7 +550,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzAyMTc4NiwyOTU4MjA3MzYsLTExNT
+eyJoaXN0b3J5IjpbMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNT
 M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
 NSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0Mz
 AzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4
