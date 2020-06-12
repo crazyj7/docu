@@ -54,7 +54,7 @@ touch  ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
 ```
 ```
-사용자들의 공개키를 계속 등록해 주면 된다.
+사용자들의 공개키를 계속 등록해 주면 된다. (위에 복사한 내용을 라인 단위로 붙여넣기하면 된다.)
 cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 참고로 key pair 생성은 윈도우의 경우는 putty-keygen을 사용하면 된다고 한다. 또는 윈도우 git을 설치하였으면 ssh-keygen이 포함되어 있어서 커맨드로 생성 가능하다.
@@ -517,11 +517,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
-UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
-MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
-g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
-MDUsLTIwODY5MDAyMzMsLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC
-04NjY4ODIzMDUsMTcxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1
-NjUwNF19
+eyJoaXN0b3J5IjpbMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNj
+I1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5
+NCw5MjczMzU0NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nz
+k4MTU0MjYsLTQ4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4
+MSwtNzQ5NjQ2NjA1LC0yMDg2OTAwMjMzLC00MTA4NDAyMzEsMT
+IxOTA2NDUwMiwtODY2ODgyMzA1LDE3MTE4MDY4OTYsLTE2MDg1
+OTg1OF19
 -->
