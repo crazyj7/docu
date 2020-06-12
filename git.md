@@ -88,6 +88,9 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 > ssh-add id_rsa
 > ssh 계정@IP
 패스워드 없이 로그인 되면 성공
+
+다시 자동서비스 시작으로 설정
+>> set-service ssh-agent -startuptype automatic
 ```
 
 ---
@@ -550,11 +553,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNT
-M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
-NSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0Mz
-AzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4
-MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAyMzMsLT
-QxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMTcxMTgw
-Njg5Nl19
+eyJoaXN0b3J5IjpbLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
+gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
+NzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMz
+ExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2
+NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMj
+A4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4
+MjMwNV19
 -->
