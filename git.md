@@ -60,9 +60,11 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 참고로 key pair 생성은 윈도우의 경우는 putty-keygen을 사용하면 된다고 한다. 또는 윈도우 git을 설치하였으면 ssh-keygen이 포함되어 있어서 커맨드로 생성 가능하다.
 
 > 에러 케이스
-> 윈도우 한글계정인 경우 인코딩문제로 깨져서 파일 생성이 안되는 경우가 있다.
-> ssh-keygen 으로 할 때 첫 번째 질문 저장위치에 를 현재 폴더로 해서 
-
+>
+>* 윈도우 한글계정인 경우 인코딩문제로 깨져서 파일 생성이 안되는 경우가 있다.
+> ssh-keygen 으로 할 때 첫 번째 질문 저장위치에 한글이 깨져서 발생하는데, 그냥 id_rsa로 입력하면 현재 폴더에 생성할 수 있다. 다음 질문은 패스워드 설정이니 그냥 엔터로 입력.
+> * 생성된 파일들을 %userprofile%\.ssh 폴더에 복사한다.
+> 
 
 ### git 서버에서 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
@@ -521,11 +523,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNDM1MDAyLDI5NTgyMDczNiwtMTE1Mz
-Q0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1
-LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMD
-M2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgx
-LC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
-EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
-ODk2XX0=
+eyJoaXN0b3J5IjpbLTIyNzkyOTczOSwyOTU4MjA3MzYsLTExNT
+M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
+NSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0Mz
+AzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4
+MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAyMzMsLT
+QxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMTcxMTgw
+Njg5Nl19
 -->
