@@ -37,7 +37,10 @@ sudo adduser git
 su - git
 mkdir repos
 ```
-### 패스워드 인증 생략 방법. ssh-keygen
+
+## 패스워드 인증 생략 방법. ssh-keygen
+- pull을 할 때마다 패스워드를 입력해야 되는 것은 귀찮다.  인증생략 방법은 없을까?
+
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능. 윈도우는 git for windows를 설치하면 위 커맨드 사용 가능. 패스워드를 그냥 엔터로 입력해도 가능.
 ```
 > ssh-keygen
@@ -70,8 +73,8 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 > * 생성된 파일들을 %userprofile%\.ssh 폴더에 복사한다.
 
-이렇게 하고 git 서버에 정상적으로 authorized_keys를 등록
-
+이렇게 하고 git 서버에 정상적으로 authorized_keys에 pub를 추가해줬는데도 안되면?
+로컬에 ssh-agent가 문제가 있을 수 있다.
 > * ssh-agent를 실행한다. 커맨드창에 ssh-agent 라고 입력. 상태확인은 뒤에 -s 옵션
 > 에러 메시지 1058이 뜬 경우. powershell을 실행하여 
 ```
@@ -543,11 +546,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4MTUzMTM4LDI5NTgyMDczNiwtMTE1Mz
-Q0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1
-LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMD
-M2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgx
-LC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
-EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
-ODk2XX0=
+eyJoaXN0b3J5IjpbLTg0NzAyMTc4NiwyOTU4MjA3MzYsLTExNT
+M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
+NSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0Mz
+AzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4
+MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAyMzMsLT
+QxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMTcxMTgw
+Njg5Nl19
 -->
