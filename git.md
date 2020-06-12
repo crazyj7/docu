@@ -40,6 +40,10 @@ mkdir repos
 ### 패스워드 인증 생략 방법. ssh-keygen
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능. 윈도우는 git for windows를 설치하면 위 커맨드 사용 가능. 패스워드를 그냥 엔터로 입력해도 가능.
 ```
+> ssh-keygen
+
+```
+```
 mkdir .ssh
 chmod 700 .ssh
 touch  ~/.ssh/authorized_keys
@@ -509,11 +513,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mz
-g4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgx
-Niw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNz
-E5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAy
-MzMsLTQxMDg0MDIzMSwxMjE5MDY0NTAyLC04NjY4ODIzMDUsMT
-cxMTgwNjg5NiwtMTYwODU5ODU4LDQ3NTI1NjUwNCwtMTQ4MzAy
-MjYzN119
+eyJoaXN0b3J5IjpbMjA4MDM2NzQ0Myw3MzYyNTA3MTEsLTE4NT
+E1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcx
+LC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00OD
+Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
+NSwtMjA4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLT
+g2Njg4MjMwNSwxNzExODA2ODk2LC0xNjA4NTk4NTgsNDc1MjU2
+NTA0XX0=
 -->
