@@ -69,6 +69,9 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 패스워드 .... ? [엔터]
 ```
 > * 생성된 파일들을 %userprofile%\.ssh 폴더에 복사한다.
+
+이렇게 하고 git 서버에 정상적으로 authorized_keys를 등록
+
 > * ssh-agent를 실행한다. 커맨드창에 ssh-agent 라고 입력. 상태확인은 뒤에 -s 옵션
 > 에러 메시지 1058이 뜬 경우. powershell을 실행하여 
 ```
@@ -77,6 +80,9 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 > powershell
 >> set-service ssh-agent -startuptype manual
 > ssh-agent
+> ssh-add id_rsa
+> ssh 계정@IP
+패스워드 없이 로그인 되면 성공
 ```
 
 
@@ -537,11 +543,11 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwOTI1ODgsMjk1ODIwNzM2LC0xMT
-UzNDQ2NDIxLDczNjI1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUw
-MTUsLTMxMTcyMDA5NCw5MjczMzU0NzEsLTEzMTExMTc4MTYsND
-MwMzY1NDkzLDE2Nzk4MTU0MjYsLTQ4Njc0MTY3OCw3MjcxOTQ1
-ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2NjA1LC0yMDg2OTAwMjMzLC
-00MTA4NDAyMzEsMTIxOTA2NDUwMiwtODY2ODgyMzA1LDE3MTE4
-MDY4OTZdfQ==
+eyJoaXN0b3J5IjpbNjA4MTUzMTM4LDI5NTgyMDczNiwtMTE1Mz
+Q0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1
+LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMD
+M2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgx
+LC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtND
+EwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4MjMwNSwxNzExODA2
+ODk2XX0=
 -->
