@@ -41,9 +41,13 @@ mkdir repos
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능. 윈도우는 git for windows를 설치하면 위 커맨드 사용 가능. 패스워드를 그냥 엔터로 입력해도 가능.
 ```
 > ssh-keygen
-
+패스워드 입력해도 되고, 그냥 (empty) 엔터쳐도 된다.
+> %userprofile%\.ssh 폴더가 생성되고 파일들이 추가됨.
+> id_rsa, id_rsa.pub 가 생기는데. pub를 메모장으로 열어서 복사하거나, 
+ git 서버로 보낸다.
 ```
 ```
+git서버에서 아래 추가.
 mkdir .ssh
 chmod 700 .ssh
 touch  ~/.ssh/authorized_keys
@@ -513,7 +517,7 @@ git revert 버전
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDM2NzQ0Myw3MzYyNTA3MTEsLTE4NT
+eyJoaXN0b3J5IjpbLTU1MjcxODUxNSw3MzYyNTA3MTEsLTE4NT
 E1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcx
 LC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00OD
 Y3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYw
