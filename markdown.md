@@ -210,7 +210,7 @@ $\sqrt[3]{x^3+y^3 \over 2}$  ; 세제곱근, 지수
 ```
 (${1}\over{2}$) + $\frac{1}{3}$
 $\left( \frac{1}{2} \right)$
-$ \sqrt{ \frac{a}{b}} $
+$\sqrt{ \frac{a}{b}}$
 $\sqrt[3]{x^3+y^3 \over 2}$
 
 ```
@@ -223,8 +223,8 @@ $$ \underset{y}{\overset{x}{_{c}^{a}Z_{d}^{b}}}	 $$
 
 $\left\vert s \right\vert$
 $\lVert z \rVert$
-$ 5^6 + \ln{r} + \log_2{10} $
-$ \sin {a} + \cos{b} $
+$5^6 + \ln{r} + \log_2{10}$
+$\sin {a} + \cos{b}$
 $$ \underset{y}{\overset{x}{_{c}^{a}Z_{d}^{b}}}	 $$
 
 > 문자 기타 기호
@@ -237,12 +237,12 @@ $ \Rightarrow $
 $\rightarrow $
 
 ```
-$ \pi+ \delta +\phi +\lambda $  $\pm$
+$\pi+ \delta +\phi +\lambda$  $\pm$
 $\cap$ $\cup$
 $\approx$
 ${n \choose k}$
-$ \Rightarrow $
-$\rightarrow $
+$\Rightarrow$
+$\rightarrow$
 
 
 > 시그마 Sum, PI 곱
@@ -250,11 +250,13 @@ $\rightarrow $
 $ \sum_{i=1}^{10}{i}  $
 $\prod_{i=1}^N x_i $
 ```
-$ \sum_{i=1}^{10}{i}  $
-$\prod_{i=1}^N x_i $
+$\sum_{i=1}^{10}{i}$
+$\prod_{i=1}^N x_i$
 
 > 방정식
 ```
+줄맞춤은 &로 한다. 
+줄바꿈은 \\로 한다. 
 \begin{matrix}
 f(n+1) &=& (n+1)^2 \\
        &=& n^2 + 2n + 1
@@ -333,11 +335,18 @@ style tag:  hello
 font tag color change: hello
 </font>
 
+- 벡터 (vector)
+ ```
+ $\vec{ab}$
+ ```
+$\vec{ab}$
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTQ3NzE2MywtMzI3NTQ2MjQyLC03Mj
-c2NDE1MjAsMTUwMTg4MjY2MV19
+eyJoaXN0b3J5IjpbLTgyNTIzNDQ5NSwyMTQxNDc3MTYzLC0zMj
+c1NDYyNDIsLTcyNzY0MTUyMCwxNTAxODgyNjYxXX0=
 -->
