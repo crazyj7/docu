@@ -431,6 +431,12 @@ $ git config --global core.autocrlf false
 
 ## Compare/비교하기
 
+### <font color=red>버전간 비교하기</font>
+- 최신 버전과 옛날 특정 버전을 비교.
+최신 버전을 받아놓은 상태에서 실행
+git diff 구버전
+
+
 
 ### branch 간 비교하기
 
@@ -548,7 +554,7 @@ git revert 버전
 
 
 
-## 특정 버전으로 돌아가기.
+## <font color=red>특정 버전으로 돌아가기.</font>
 ```
 # 다운로드
 git clone ....
@@ -573,11 +579,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODUzMTg3MywyNjE2ODgxOTYsLTU4ND
-U4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQy
-MSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1LC0zMT
-E3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5
-MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNzI3MTk0NTgxLC05OD
-I3ODM5ODEsLTc0OTY0NjYwNSwtMjA4NjkwMDIzMywtNDEwODQw
-MjMxXX0=
+eyJoaXN0b3J5IjpbMzkxNTg4NjgzLDEwOTg1MzE4NzMsMjYxNj
+g4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYs
+LTExNTM0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mz
+g4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgx
+Niw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNz
+E5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAy
+MzNdfQ==
 -->
