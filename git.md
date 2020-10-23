@@ -563,7 +563,7 @@ commit 해시2
 git checkout 커밋해시값
 ```
 - 최신 버전과 비교하려면 windiff 같은 것으로 directory compare를 수행.
-- 커밋 단계별 변화부분 확이체크는 github desktop을 사용하면 편리하다.
+- 커밋 단계별 변화부분 확인시에는 github desktop 프로그램을 사용하면 편리하다.
 - 
 
 
@@ -573,7 +573,7 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTgzNTg0OSwyNjE2ODgxOTYsLTU4ND
+eyJoaXN0b3J5IjpbMTA5ODUzMTg3MywyNjE2ODgxOTYsLTU4ND
 U4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQy
 MSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1LC0zMT
 E3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5
