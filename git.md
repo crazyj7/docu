@@ -548,16 +548,33 @@ git revert 버전
 
 
 
+## 특정 버전으로 돌아가기.
+```
+# 다운로드
+git clone ....
+# 로그 확인. 커밋 확인
+git log
+commit 해시1
+로그1
+commit 해시2
+로그2
+...
+# 해당 커밋으로 돌아감.
+git checkout 커밋해시값
+```
+
+
+
 ---
 > Author : crazyj7@gmail.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
-gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
-NzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMz
-ExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2
-NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMj
-A4NjkwMDIzMywtNDEwODQwMjMxLDEyMTkwNjQ1MDIsLTg2Njg4
-MjMwNV19
+eyJoaXN0b3J5IjpbMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OT
+g1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzEx
+LC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNz
+MzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQy
+NiwtNDg2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03ND
+k2NDY2MDUsLTIwODY5MDAyMzMsLTQxMDg0MDIzMSwxMjE5MDY0
+NTAyXX0=
 -->
