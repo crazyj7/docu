@@ -434,7 +434,10 @@ $ git config --global core.autocrlf false
 ### <font color=red>버전간 비교하기</font>
 - 최신 버전과 옛날 특정 버전을 비교.
 최신 버전을 받아놓은 상태에서 실행
-git diff 구버전
+```git diff 비교버전```
+(구버전은 커밋해시값을 사용해도 된다.)
+- 위와 같은데 특정 파일에 대해서만 diff 사용.
+```git diff 비교버전 파일명```
 
 
 
@@ -579,11 +582,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNTg4NjgzLDEwOTg1MzE4NzMsMjYxNj
-g4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYs
-LTExNTM0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mz
-g4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgx
-Niw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNz
-E5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2MDUsLTIwODY5MDAy
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTE0NzcwOTk5MTAsMTA5ODUzMTg3MywyNj
+E2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDcz
+NiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLT
+kzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3
+ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNz
+I3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4Njkw
+MDIzM119
 -->
