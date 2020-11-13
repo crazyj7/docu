@@ -124,7 +124,7 @@ git push origin master
 
 ## <font color=red>개발 중에 저장소를 만들어 올리기!!!</font>
 > 처음부터 저장소만들어서 빈 저장소를 받고 작업하기 보다는 보통은 개발 부터 먼저 로컬에서 하다가 어느 정도 되면 서버로 올리는 경우가 많다...
-> 이 때, 빈 저장소를 서버에 만들어 받고, 작업중인 프로젝트 파일들을 거기에 다 옮겨넣고 커밋하는 방법이 있긴 하지만, 사본을 만들고 옮기고 하는 등 귀찮다. 간단한 방법이 있다. 
+> 이 때, 빈 저장소를 서버에 만들어 로컬에서 받고, 작업중인 프로젝트 파일들을 거기에 다 옮겨넣고 커밋푸시하는 방법이 있긴 하지만, 사본을 만들고 옮기고 하는 등 번거롭고 귀찮다.  더 간단한 방법이 있다. ...
 
 **일단, 서버에 빈 저장소를 생성하는 것은** 동일하다.
 ```
@@ -135,7 +135,7 @@ git push origin master
 기본 파일들이 구성됨.
 ```
 로컬 git 저장소를 만들어 현재 프로젝트를 올린다.
-이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 **Team-Share Project** 선택
+이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 <font color=red**Team-Share Project** 선택
 로컬 저장소를 만들어 준다.
 ```예를 들면 저장소를 d:\git\myproject```
 
@@ -620,7 +620,7 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTA0ODc3NSwtMTQ3NzA5OTkxMCwxMD
+eyJoaXN0b3J5IjpbLTM4NTk1MjIwMiwtMTQ3NzA5OTkxMCwxMD
 k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
 NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
 g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
