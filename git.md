@@ -96,8 +96,7 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ---
 
 
-### 개발 전에 먼저 빈 저장소 생성
-### git 서버에서 저장소 만들기
+## 개발 전에 먼저 빈 저장소 생성,  git 서버에서 빈 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
 ``` 
 su - git
@@ -122,6 +121,9 @@ git add *.cpp *.h ...
 git commit -m "init"
 git push origin master
 ```
+
+### 개발 중에 저장소를 만들어 올리기
+> 보통은 개발 부터 로컬에서 하다가 서버로 올리는 경우가 많다...
 
 
 ## Work
@@ -586,11 +588,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTM5NTA3NCwtMTQ3NzA5OTkxMCwxMD
-k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
-NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
-g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
-NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLT
-Q4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTE4NDI4NDY0MTcsLTE0NzcwOTk5MTAsMT
+A5ODUzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3
+OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLT
+E4NTE1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1
+NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC
+00ODY3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0
+NjYwNV19
 -->
