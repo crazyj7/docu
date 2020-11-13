@@ -252,7 +252,7 @@ cancel all worked here. cancel commit.
 뒤에 대상 미지정시 전체 취소
 
 
-## <font color="red"> conflict?
+## <font color="red"> conflict?  충돌!!!
 </font>
 
 *edit conflicted file and git add/ git commit  
@@ -365,7 +365,7 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 삭제하기 전에 목록 출력만(rd /s /q 대신 echo) 해서 확인을 하는 것이 좋다.  
 
 
-### Repository mirror
+## Repository mirror (저장소를 다른 서버로 이전)
 저장소 복사
 > git clone --mirror [가져올 URL] 
 > git push --mirror [가져욜 URL]  
@@ -385,9 +385,9 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 # git remote set-url --push origin http://local.com/mobile/android.git
 
 옮길 서버에는 git init --bare로 초기화된 저장소를 만들어 준다.
-# mkdir android.git
-# cd android.git
-# git init --bare
+$ mkdir android.git
+$ cd android.git
+$ git init --bare
 
 이제 push --mirror로 올린다....
 # git push --mirror
@@ -632,11 +632,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1MTMzNDQsLTE4NjI3OTczMTQsNz
-kyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4
-MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLT
-ExNTM0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4
-NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNi
-w0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5
-NDU4MV19
+eyJoaXN0b3J5IjpbNjgwNjgwMzA2LC0xODYyNzk3MzE0LDc5Mj
+YwMDk2NiwtMTQ3NzA5OTkxMCwxMDk4NTMxODczLDI2MTY4ODE5
+NiwtNTg0NTg5MTc0LDE4NTk4NTc5NTgsMjk1ODIwNzM2LC0xMT
+UzNDQ2NDIxLDczNjI1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUw
+MTUsLTMxMTcyMDA5NCw5MjczMzU0NzEsLTEzMTExMTc4MTYsND
+MwMzY1NDkzLDE2Nzk4MTU0MjYsLTQ4Njc0MTY3OCw3MjcxOTQ1
+ODFdfQ==
 -->
