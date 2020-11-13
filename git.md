@@ -122,8 +122,9 @@ git commit -m "init"
 git push origin master
 ```
 
-## 개발 중에 저장소를 만들어 올리기!!!
+## <font color=red>개발 중에 저장소를 만들어 올리기!!!</font>
 > 보통은 개발 부터 로컬에서 하다가 서버로 올리는 경우가 많다...
+> 빈 저장소를 서버에 만들어 받고, 작업중인 프로젝트 파일들을 거기에 다 옮겨넣고 
 
 **일단, 서버에 빈 저장소를 생성하는 것은** 동일하다.
 ```
@@ -619,11 +620,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTkxNjQ2LC0xNDc3MDk5OTEwLDEwOT
-g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
-OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
-UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
-MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
-g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTExMTM2ODE5MDMsLTE0NzcwOTk5MTAsMT
+A5ODUzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3
+OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLT
+E4NTE1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1
+NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC
+00ODY3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0
+NjYwNV19
 -->
