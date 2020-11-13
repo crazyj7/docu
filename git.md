@@ -377,12 +377,21 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 원격지 저장소 주소 확인
 
 # git clone --mirror https://user@a.c.com/maypp/test.git
-먼저 옮길 내용을 클론으로 받는다.
+먼저 옮길 내용을 clone --mirror 으로 받는다. (git 구조를 받음)
 
 올릴 곳의 주소로 설정
+# cd test.git
+# git remote -v
 # git remote set-url --push origin http://local.com/mobile/android.git
+
+옮길 서버에는 git init --bare로 초기화된 저장소를 만들어 준다.
+# mkdir android.git
+# cd android.git
+# git init --bare
+
+이제 push --mirror로 올린다....
 # git push --mirror
-이제 로컬의 내용을 변경된 주소로 올린다.
+이제 로컬의 내용을 변경된 주소로 올린다. (git 구조를 올림)
 
 ```
 
@@ -623,11 +632,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xND
-c3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkx
-NzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNz
-M2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIw
-MDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMT
-Y3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgz
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE1MDE1MTMzNDQsLTE4NjI3OTczMTQsNz
+kyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4
+MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLT
+ExNTM0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4
+NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNi
+w0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5
+NDU4MV19
 -->
