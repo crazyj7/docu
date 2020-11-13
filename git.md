@@ -369,6 +369,9 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 저장소 복사
 > git clone --mirror [가져올 URL] 
 > git push --mirror [가져욜 URL]  
+
+### <font color=red>git remote -v</font>
+### <font color=red>git remote set-url --push origin [URL] </font>
 ```
 # git remote -v 
 원격지 저장소 주소 확인
@@ -620,11 +623,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOT
-g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
-OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
-UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
-MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
-g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xND
+c3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkx
+NzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNz
+M2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIw
+MDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMT
+Y3OTgxNTQyNiwtNDg2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgz
+OTgxXX0=
 -->
