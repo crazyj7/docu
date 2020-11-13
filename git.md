@@ -143,6 +143,14 @@ git push origin master
 커밋 메시지를 작성하고 Commit and Push 버튼을 한다.
 
 **원격 git 서버 저장소로 연결**
+URI를 작성하여 로그인 계정 정보를 넣으면 서버로 올라간다.
+```
+ssh://git_server@1.2.3.4:22/home/git_server/home/myproject.git
+```
+github 같은 경우는
+```
+https://github.com/yourgithubid/myproject.git
+```
 
 
 
@@ -611,11 +619,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg1NDMxODgsLTE0NzcwOTk5MTAsMT
-A5ODUzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3
-OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLT
-E4NTE1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1
-NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC
-00ODY3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0
-NjYwNV19
+eyJoaXN0b3J5IjpbMzQyOTkxNjQ2LC0xNDc3MDk5OTEwLDEwOT
+g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
+OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
+UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
+MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
+g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
+MDVdfQ==
 -->
