@@ -122,9 +122,10 @@ git commit -m "init"
 git push origin master
 ```
 
-### 개발 중에 저장소를 만들어 올리기
+## 개발 중에 저장소를 만들어 올리기!!!
 > 보통은 개발 부터 로컬에서 하다가 서버로 올리는 경우가 많다...
-일단, 서버에 빈 저장소를 생성하는 것을 동일하다.
+
+**일단, 서버에 빈 저장소를 생성하는 것은** 동일하다.
 ```
 사용할 계정으로 로그인: 예)git_server
 /home/git_server$ mkdir myproject.git
@@ -132,7 +133,10 @@ git push origin master
 /home/git_server/myproject.git$ git init --bare
 기본 파일들이 구성됨.
 ```
-로컬 저장서이클립스의 경우 왼쪽 프로젝트 우클릭에서 
+로컬 git 저장소를 만들어 현재 프로젝트를 올린다.
+이클립스의 경우 쉽게 왼쪽 프로젝트 우클릭에서 **Team-Share Project** 선택
+로컬 저장소를 만들어 준다.
+예를 들면 d:\git\myproject
 
 ## Work
 ### make new branch and work
@@ -596,11 +600,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc4MDc5NDksLTE0NzcwOTk5MTAsMT
-A5ODUzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3
-OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLT
-E4NTE1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1
-NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC
-00ODY3NDE2NzgsNzI3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0
-NjYwNV19
+eyJoaXN0b3J5IjpbMTgyODc1MTc4NiwtMTQ3NzA5OTkxMCwxMD
+k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
+NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
+g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
+NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLT
+Q4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2
+NjA1XX0=
 -->
