@@ -124,7 +124,15 @@ git push origin master
 
 ### 개발 중에 저장소를 만들어 올리기
 > 보통은 개발 부터 로컬에서 하다가 서버로 올리는 경우가 많다...
-
+일단, 서버에 빈 저장소를 생성하는 것을 동일하다.
+```
+사용할 계정으로 로그인: 예)git_server
+/home/git_server$ mkdir myproject.git
+/home/git_server$ cd myproject.git
+/home/git_server/myproject.git$ git init --bare
+기본 파일들이 구성됨.
+```
+로컬 저장서이클립스의 경우 왼쪽 프로젝트 우클릭에서 
 
 ## Work
 ### make new branch and work
@@ -588,7 +596,7 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI4NDY0MTcsLTE0NzcwOTk5MTAsMT
+eyJoaXN0b3J5IjpbLTE0ODc4MDc5NDksLTE0NzcwOTk5MTAsMT
 A5ODUzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3
 OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLT
 E4NTE1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1
