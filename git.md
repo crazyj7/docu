@@ -134,9 +134,16 @@ git push origin master
 기본 파일들이 구성됨.
 ```
 로컬 git 저장소를 만들어 현재 프로젝트를 올린다.
-이클립스의 경우 쉽게 왼쪽 프로젝트 우클릭에서 **Team-Share Project** 선택
+이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 **Team-Share Project** 선택
 로컬 저장소를 만들어 준다.
-예를 들면 d:\git\myproject
+```예를 들면 저장소를 d:\git\myproject```
+
+**커밋 과 Push** (Team-Commit)
+
+
+
+
+
 
 ## Work
 ### make new branch and work
@@ -600,7 +607,7 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODc1MTc4NiwtMTQ3NzA5OTkxMCwxMD
+eyJoaXN0b3J5IjpbMTU4ODY1Mzg3OSwtMTQ3NzA5OTkxMCwxMD
 k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
 NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
 g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
