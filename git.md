@@ -96,6 +96,7 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ---
 
 
+### 개발 전에 먼저 빈 저장소 생성
 ### git 서버에서 저장소 만들기
 디렉터리를 저장소명.git 으로 생성한다. 
 ``` 
@@ -107,11 +108,13 @@ cd testproject.git
 해당 폴더로 이동하여 아래 커맨드를 실행
 ``` git init --bare --shared ```
 shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
-그냥 일반적으로 ```git init --bare```를 사용한다. (bare 옵션을 줘야 함. 그래야 고유을 기본적인 파일 및 디렉터리들이 구성됨.) 
 
+**그냥 일반적으로 ```git init --bare```를 사용한다**. (bare 옵션을 줘야 함. 그래야 공유를 위한 기본적인 파일 및 디렉터리들이 구성됨.) 
+
+서버에서 생성한 빈 git 저장소를 받는다. ```git clone```
 프로젝트를 생성하여 소스 파일들을 작성한다음 최초 커밋을 한다.
 ```
-git checkout ssh://id@IP:port/home/git/repos/testproject.git
+git clone ssh://id@IP:port/home/git/repos/testproject.git
 cp ~/work/myfolder/testproject/*.cpp testproject/
 ...
 cd testproject
@@ -583,11 +586,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1OTcxOTAzLC0xNDc3MDk5OTEwLDEwOT
-g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
-OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
-UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
-MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
-g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
-MDVdfQ==
+eyJoaXN0b3J5IjpbMTU0MTM5NTA3NCwtMTQ3NzA5OTkxMCwxMD
+k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
+NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
+g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
+NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLT
+Q4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2
+NjA1XX0=
 -->
