@@ -135,7 +135,7 @@ git push origin master
 기본 파일들이 구성됨.
 ```
 로컬 git 저장소를 만들어 현재 프로젝트를 올린다.
-이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 <font color=red**Team-Share Project** 선택
+이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 <font color=red>**Team-Share Project** 선택</font>
 로컬 저장소를 만들어 준다.
 ```예를 들면 저장소를 d:\git\myproject```
 
@@ -620,11 +620,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTk1MjIwMiwtMTQ3NzA5OTkxMCwxMD
-k4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5
-NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMT
-g1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0
-NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkzLDE2Nzk4MTU0MjYsLT
-Q4Njc0MTY3OCw3MjcxOTQ1ODEsLTk4Mjc4Mzk4MSwtNzQ5NjQ2
-NjA1XX0=
+eyJoaXN0b3J5IjpbNzkyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOT
+g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
+OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
+UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
+MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
+g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
+MDVdfQ==
 -->
