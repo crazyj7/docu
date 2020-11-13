@@ -107,6 +107,7 @@ cd testproject.git
 해당 폴더로 이동하여 아래 커맨드를 실행
 ``` git init --bare --shared ```
 shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
+그냥 일반적으로 ```git init --bare```를 사용한다. (bare 옵션을 줘야 함. 그래야 고유을 기본적인 파일 및 디렉터리들이 구성됨.) 
 
 프로젝트를 생성하여 소스 파일들을 작성한다음 최초 커밋을 한다.
 ```
@@ -582,11 +583,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcwOTk5MTAsMTA5ODUzMTg3MywyNj
-E2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDcz
-NiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLT
-kzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3
-ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2NzgsNz
-I3MTk0NTgxLC05ODI3ODM5ODEsLTc0OTY0NjYwNSwtMjA4Njkw
-MDIzM119
+eyJoaXN0b3J5IjpbMjE1OTcxOTAzLC0xNDc3MDk5OTEwLDEwOT
+g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
+OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
+UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
+MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtND
+g2NzQxNjc4LDcyNzE5NDU4MSwtOTgyNzgzOTgxLC03NDk2NDY2
+MDVdfQ==
 -->
