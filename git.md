@@ -138,10 +138,10 @@ git push origin master
 이클립스의 경우 쉽게 왼쪽뷰에서 올린 프로젝트를 선택하여 우클릭에서 <font color=red>**Team-Share Project** 선택</font>
 로컬 저장소를 만들어 준다.
 ```예를 들면 저장소를 d:\git\myproject```
-- 사본을 만들지 않고, 그대로 유지하려면 아래와 같이....
+- **사본을 만들지 않고, 현재 경로 그대로 유지하려면 아래와 같이....**
 - Use or create repository in parent folder of project 체크.
 - 아래 Create Repository 버튼 클릭. 
-- 프로젝트 선택. Finish. 하면 현재 프로젝트 경로에 .git 폴더가 생성되며 
+- 프로젝트 선택. Finish. 하면 현재 프로젝트 경로에 .git 폴더가 생성된다!!!
 
 
 **커밋 과 Push** (Team-Commit)
@@ -637,11 +637,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDYwOTMyOCw2ODA2ODAzMDYsLTE4Nj
-I3OTczMTQsNzkyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOTg1MzE4
-NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOT
-U4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1
-MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3MSwtMT
-MxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQyNiwtNDg2NzQx
-Njc4XX0=
+eyJoaXN0b3J5IjpbOTE1MjI5NzcwLDY4MDY4MDMwNiwtMTg2Mj
+c5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5MTAsMTA5ODUzMTg3
+MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
+gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
+NzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMz
+ExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2
+NzhdfQ==
 -->
