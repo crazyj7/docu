@@ -40,7 +40,13 @@ mkdir repos
 ---
 
 
-## 패스워드 인증 생략 방법. ssh-keygen
+## 패스워드 인증 생략 방법. 
+### github
+```
+$ git config credential.helper store
+```
+
+### ssh-keygen
 - pull을 할 때마다 패스워드를 입력해야 되는 것은 귀찮다.  인증생략 방법은 없을까?
 
 - 사용자들로 부터 ssh 키를 생성하게 하고 pub key를 받아 계속 추가해 주면 여러명이 사용가능. 윈도우는 git for windows를 설치하면 위 커맨드 사용 가능. 패스워드를 그냥 엔터로 입력해도 가능.
@@ -637,11 +643,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MjI5NzcwLDY4MDY4MDMwNiwtMTg2Mj
-c5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5MTAsMTA5ODUzMTg3
-MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
-gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
-NzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcxLC0xMz
-ExMTE3ODE2LDQzMDM2NTQ5MywxNjc5ODE1NDI2LC00ODY3NDE2
-NzhdfQ==
+eyJoaXN0b3J5IjpbMzk0NTg3MzIzLDkxNTIyOTc3MCw2ODA2OD
+AzMDYsLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xNDc3MDk5OTEw
+LDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OT
+g1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzEx
+LC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNz
+MzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQy
+Nl19
 -->
