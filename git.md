@@ -223,6 +223,33 @@ merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가
 > git commit --amend -m "hello"
 ```
 
+### git checkout . 하고 git pull로 최신것을 받으려는데...
+```
+error: you have not concluded your merge (MERGE_HEAD exists).
+hint: please commit your changes before merging.
+fatal existing because of unfinished merge.
+```
+로컬에서 변경한 것들은 취소하고 새로받으려고했는데 위와 같은 에러 발생!
+```
+# merge 된것을 취소함.
+git merge --abort
+git status
+git pull
+
+error: ... overwritten by merge:
+aaa.xaml
+please move or remove them before you merge.
+
+
+```
+
+
+
+
+
+
+
+
 ---
 
 ### History
@@ -643,11 +670,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NTg3MzIzLDkxNTIyOTc3MCw2ODA2OD
-AzMDYsLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xNDc3MDk5OTEw
-LDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OT
-g1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzEx
-LC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNz
-MzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTMsMTY3OTgxNTQy
-Nl19
+eyJoaXN0b3J5IjpbMTc3NTU5MjEzMiwzOTQ1ODczMjMsOTE1Mj
+I5NzcwLDY4MDY4MDMwNiwtMTg2Mjc5NzMxNCw3OTI2MDA5NjYs
+LTE0NzcwOTk5MTAsMTA5ODUzMTg3MywyNjE2ODgxOTYsLTU4ND
+U4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQy
+MSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1LC0zMT
+E3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5
+M119
 -->
