@@ -223,26 +223,36 @@ merge후 conflict나고 처리가 복잡할 경우 바로 이전으로 돌아가
 > git commit --amend -m "hello"
 ```
 
-### git checkout . 하고 git pull로 최신것을 받으려는데...
+### 이전으로 돌아가 git pull로 최신것을 받으려는데...
+### error: you have not concluded your merge
 ```
+git checkout .
+git pull
+
 error: you have not concluded your merge (MERGE_HEAD exists).
 hint: please commit your changes before merging.
 fatal existing because of unfinished merge.
 ```
-로컬에서 변경한 것들은 취소하고 새로받으려고했는데 위와 같은 에러 발생!
+ 로컬에서 변경한 것들은 취소하고 새로받으려고했는데 위와 같은 에러 발생!
 ```
 # merge 된것을 취소함.
 git merge --abort
 git status
 git pull
-
-error: ... overwritten by merge:
+```
+### error: The following untracked working tree files would be overwritten by merge
+```
+# 또 아래와 같은 에러 발생
+error: The following untracked working tree files would be overwritten by merge:
 aaa.xaml
 please move or remove them before you merge.
 
+git clean -d -f
+# 추가된 파일들이 삭제됨.
 
+git pull
 ```
-
+### CONFLICT (content): Merge conflict in cfa/x64/Debug/cfa_version.h Automatic merge failed; fix conflicts and then commit the result.
 
 
 
@@ -670,11 +680,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTU5MjEzMiwzOTQ1ODczMjMsOTE1Mj
-I5NzcwLDY4MDY4MDMwNiwtMTg2Mjc5NzMxNCw3OTI2MDA5NjYs
-LTE0NzcwOTk5MTAsMTA5ODUzMTg3MywyNjE2ODgxOTYsLTU4ND
-U4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDczNiwtMTE1MzQ0NjQy
-MSw3MzYyNTA3MTEsLTE4NTE1MTUzNzMsLTkzODg1MDE1LC0zMT
-E3MjAwOTQsOTI3MzM1NDcxLC0xMzExMTE3ODE2LDQzMDM2NTQ5
-M119
+eyJoaXN0b3J5IjpbNjEwODQwOTUsMzk0NTg3MzIzLDkxNTIyOT
+c3MCw2ODA2ODAzMDYsLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0x
+NDc3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1OD
+kxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEs
+NzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAxNSwtMzExNz
+IwMDk0LDkyNzMzNTQ3MSwtMTMxMTExNzgxNiw0MzAzNjU0OTNd
+fQ==
 -->
