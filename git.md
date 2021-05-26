@@ -533,6 +533,7 @@ git push
 
 - **core.autocrlf 기능** 꺼주기 : (리눅스에서 코드에 ^M이 붙는 현상 방지)
 	- 이미 ^M이 붙어 있다면, notepad++ 같은 편집기에서 UNIX EOL로 수정하여 다시 commit하면 해결된다. 
+	- 리눅스, 윈도우 양쪽에서 사용한다면??? true로
 ```
 $ git config --global core.autocrlf false
 ```
@@ -690,11 +691,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMjIyNTc3LDM5NDU4NzMyMyw5MTUyMj
-k3NzAsNjgwNjgwMzA2LC0xODYyNzk3MzE0LDc5MjYwMDk2Niwt
-MTQ3NzA5OTkxMCwxMDk4NTMxODczLDI2MTY4ODE5NiwtNTg0NT
-g5MTc0LDE4NTk4NTc5NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIx
-LDczNjI1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUwMTUsLTMxMT
-cyMDA5NCw5MjczMzU0NzEsLTEzMTExMTc4MTYsNDMwMzY1NDkz
-XX0=
+eyJoaXN0b3J5IjpbLTIxMTE5NTYxNjcsNzQyMjIyNTc3LDM5ND
+U4NzMyMyw5MTUyMjk3NzAsNjgwNjgwMzA2LC0xODYyNzk3MzE0
+LDc5MjYwMDk2NiwtMTQ3NzA5OTkxMCwxMDk4NTMxODczLDI2MT
+Y4ODE5NiwtNTg0NTg5MTc0LDE4NTk4NTc5NTgsMjk1ODIwNzM2
+LC0xMTUzNDQ2NDIxLDczNjI1MDcxMSwtMTg1MTUxNTM3MywtOT
+M4ODUwMTUsLTMxMTcyMDA5NCw5MjczMzU0NzEsLTEzMTExMTc4
+MTZdfQ==
 -->
