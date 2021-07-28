@@ -489,8 +489,8 @@ git tag -d v1.0
 <font color="red">**Warn!: 해당 브랜치로 전환** (이걸 안해주면 소스 날릴 수도) 음 기억하자 branch checkout </font>
 ```git checkout 1.1```
 <font color="red">
-**요약: 복잡하니 간단하게 새로운 브랜치 작업시에는 아래만 기억**
-``` git checkout -b new브랜치명 ```
+**요약: 복잡하니 간단하게 새로운 브랜치 작업시에는 아래만 기억하자**
+``` git checkout -b 1.1 ```
 </font>
 
 이제 소스코드 작업을 하고 다 끝나면...
@@ -693,11 +693,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjQwMTY3NywtMjExMTk1NjE2Nyw3ND
-IyMjI1NzcsMzk0NTg3MzIzLDkxNTIyOTc3MCw2ODA2ODAzMDYs
-LTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xNDc3MDk5OTEwLDEwOT
-g1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OTg1Nzk1
-OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzExLC0xOD
-UxNTE1MzczLC05Mzg4NTAxNSwtMzExNzIwMDk0LDkyNzMzNTQ3
-MV19
+eyJoaXN0b3J5IjpbNDQ5MjYzNjk0LC0yMTExOTU2MTY3LDc0Mj
+IyMjU3NywzOTQ1ODczMjMsOTE1MjI5NzcwLDY4MDY4MDMwNiwt
+MTg2Mjc5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5MTAsMTA5OD
+UzMTg3MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4
+LDI5NTgyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NT
+E1MTUzNzMsLTkzODg1MDE1LC0zMTE3MjAwOTQsOTI3MzM1NDcx
+XX0=
 -->
