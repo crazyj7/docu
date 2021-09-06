@@ -549,6 +549,7 @@ $ git config --global core.autocrlf false
 (구버전은 커밋해시값을 사용해도 된다.)
 - 위와 같은데 특정 파일에 대해서만 diff 사용.
 ```git diff 비교버전 파일명```
+- HEAD
 
 
 - GitHub Desktop 프로그램으로 보는게 편함.
@@ -696,11 +697,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Nzk5MTg4Niw0NDkyNjM2OTQsLTIxMT
-E5NTYxNjcsNzQyMjIyNTc3LDM5NDU4NzMyMyw5MTUyMjk3NzAs
-NjgwNjgwMzA2LC0xODYyNzk3MzE0LDc5MjYwMDk2NiwtMTQ3Nz
-A5OTkxMCwxMDk4NTMxODczLDI2MTY4ODE5NiwtNTg0NTg5MTc0
-LDE4NTk4NTc5NTgsMjk1ODIwNzM2LC0xMTUzNDQ2NDIxLDczNj
-I1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUwMTUsLTMxMTcyMDA5
-NF19
+eyJoaXN0b3J5IjpbLTIwNjg2ODQxNDcsLTI4Nzk5MTg4Niw0ND
+kyNjM2OTQsLTIxMTE5NTYxNjcsNzQyMjIyNTc3LDM5NDU4NzMy
+Myw5MTUyMjk3NzAsNjgwNjgwMzA2LC0xODYyNzk3MzE0LDc5Mj
+YwMDk2NiwtMTQ3NzA5OTkxMCwxMDk4NTMxODczLDI2MTY4ODE5
+NiwtNTg0NTg5MTc0LDE4NTk4NTc5NTgsMjk1ODIwNzM2LC0xMT
+UzNDQ2NDIxLDczNjI1MDcxMSwtMTg1MTUxNTM3MywtOTM4ODUw
+MTVdfQ==
 -->
