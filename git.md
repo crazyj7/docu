@@ -120,7 +120,7 @@ cd ~/repos
 mkdir testproject.git
 cd testproject.git
 ```
-해당 폴더로 이동하여 아래 커맨드를 실행
+해당 폴더로 이동하여 아래 커맨드를 실행. "깃 이닛". "베어. 쉐어드." 
 ``` git init --bare --shared ```
 shared 옵션은 같은 그룹에  쓰기 권한을 추가해 준다.
 
@@ -698,11 +698,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjIyMjA5MiwtMjg3OTkxODg2LDQ0OT
-I2MzY5NCwtMjExMTk1NjE2Nyw3NDIyMjI1NzcsMzk0NTg3MzIz
-LDkxNTIyOTc3MCw2ODA2ODAzMDYsLTE4NjI3OTczMTQsNzkyNj
-AwOTY2LC0xNDc3MDk5OTEwLDEwOTg1MzE4NzMsMjYxNjg4MTk2
-LC01ODQ1ODkxNzQsMTg1OTg1Nzk1OCwyOTU4MjA3MzYsLTExNT
-M0NDY0MjEsNzM2MjUwNzExLC0xODUxNTE1MzczLC05Mzg4NTAx
-NV19
+eyJoaXN0b3J5IjpbMjA3ODE2NDU4NiwxMDAyMjIyMDkyLC0yOD
+c5OTE4ODYsNDQ5MjYzNjk0LC0yMTExOTU2MTY3LDc0MjIyMjU3
+NywzOTQ1ODczMjMsOTE1MjI5NzcwLDY4MDY4MDMwNiwtMTg2Mj
+c5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5MTAsMTA5ODUzMTg3
+MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
+gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
+NzNdfQ==
 -->
