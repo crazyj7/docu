@@ -691,7 +691,7 @@ commit 해시2
 로그2
 ...
 # 해당 커밋으로 돌아감.
-git checkout 커밋해시값
+git checkout 커밋해시값 또는 태그명
 ```
 - 최신 버전과 비교하려면 windiff 같은 것으로 directory compare를 수행.
 - 커밋 단계별 변화부분 확인시에는 github desktop 프로그램을 사용하면 편리하다.
@@ -704,11 +704,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzc0OTM5MSwtMTgzMjkxNzgwOSwyMD
-c4MTY0NTg2LDEwMDIyMjIwOTIsLTI4Nzk5MTg4Niw0NDkyNjM2
-OTQsLTIxMTE5NTYxNjcsNzQyMjIyNTc3LDM5NDU4NzMyMyw5MT
-UyMjk3NzAsNjgwNjgwMzA2LC0xODYyNzk3MzE0LDc5MjYwMDk2
-NiwtMTQ3NzA5OTkxMCwxMDk4NTMxODczLDI2MTY4ODE5NiwtNT
-g0NTg5MTc0LDE4NTk4NTc5NTgsMjk1ODIwNzM2LC0xMTUzNDQ2
-NDIxXX0=
+eyJoaXN0b3J5IjpbLTExMjgwMjc4NDYsLTE4MzI5MTc4MDksMj
+A3ODE2NDU4NiwxMDAyMjIyMDkyLC0yODc5OTE4ODYsNDQ5MjYz
+Njk0LC0yMTExOTU2MTY3LDc0MjIyMjU3NywzOTQ1ODczMjMsOT
+E1MjI5NzcwLDY4MDY4MDMwNiwtMTg2Mjc5NzMxNCw3OTI2MDA5
+NjYsLTE0NzcwOTk5MTAsMTA5ODUzMTg3MywyNjE2ODgxOTYsLT
+U4NDU4OTE3NCwxODU5ODU3OTU4LDI5NTgyMDczNiwtMTE1MzQ0
+NjQyMV19
 -->
