@@ -467,7 +467,7 @@ $ git init --bare
  ```
  git tag
  ```
-- 현재 받은 checkout에 **tag 설정**하고 push로 올림.
+- 현재 받은 checkout에 **tag 설정**하고 **push**로 올림.
  ```
 git tag v1.0
 git push origin v1.0
@@ -704,7 +704,7 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwMzg3NjksMjA3ODE2NDU4NiwxMD
+eyJoaXN0b3J5IjpbLTE4MzI5MTc4MDksMjA3ODE2NDU4NiwxMD
 AyMjIyMDkyLC0yODc5OTE4ODYsNDQ5MjYzNjk0LC0yMTExOTU2
 MTY3LDc0MjIyMjU3NywzOTQ1ODczMjMsOTE1MjI5NzcwLDY4MD
 Y4MDMwNiwtMTg2Mjc5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5
