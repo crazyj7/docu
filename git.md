@@ -424,6 +424,9 @@ FOR /r "c:\temp" %%f IN (.git) DO RD /s /q "%%f"
 
 
 ## Repository mirror (저장소를 다른 서버로 이전)
+- git 서버에서 프로젝트 git 폴더를 통째로 압축하여, 이전 서버에 repos에 풀면 된다. (chown -R 로 git user 소유권 설정.)
+- 다른 방법
+
 저장소 복사
 > git clone --mirror [가져올 URL] 
 > git push --mirror [가져욜 URL]  
@@ -698,11 +701,11 @@ git checkout 커밋해시값
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODE2NDU4NiwxMDAyMjIyMDkyLC0yOD
-c5OTE4ODYsNDQ5MjYzNjk0LC0yMTExOTU2MTY3LDc0MjIyMjU3
-NywzOTQ1ODczMjMsOTE1MjI5NzcwLDY4MDY4MDMwNiwtMTg2Mj
-c5NzMxNCw3OTI2MDA5NjYsLTE0NzcwOTk5MTAsMTA5ODUzMTg3
-MywyNjE2ODgxOTYsLTU4NDU4OTE3NCwxODU5ODU3OTU4LDI5NT
-gyMDczNiwtMTE1MzQ0NjQyMSw3MzYyNTA3MTEsLTE4NTE1MTUz
-NzNdfQ==
+eyJoaXN0b3J5IjpbMzExMTM4MjQyLDIwNzgxNjQ1ODYsMTAwMj
+IyMjA5MiwtMjg3OTkxODg2LDQ0OTI2MzY5NCwtMjExMTk1NjE2
+Nyw3NDIyMjI1NzcsMzk0NTg3MzIzLDkxNTIyOTc3MCw2ODA2OD
+AzMDYsLTE4NjI3OTczMTQsNzkyNjAwOTY2LC0xNDc3MDk5OTEw
+LDEwOTg1MzE4NzMsMjYxNjg4MTk2LC01ODQ1ODkxNzQsMTg1OT
+g1Nzk1OCwyOTU4MjA3MzYsLTExNTM0NDY0MjEsNzM2MjUwNzEx
+XX0=
 -->
